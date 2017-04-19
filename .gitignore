@@ -1,5 +1,8 @@
 /node_modules
 /public/storage
+/public/images
+/public/images(old)
+/public/images(shadow1)
 /vendor
 /.idea
 Homestead.json
