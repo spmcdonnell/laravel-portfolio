@@ -27,7 +27,7 @@
 <div class="white-ridges-up"></div>
 <section class="home__section home__section--contact">
      <div class="inside-container">
-        <h2>Get In Touch</h2>
+        <h2>Want To Get In Touch?</h2>
         <form action="{{ url('/')  }}" method="POST">
             {{ csrf_field() }}
             <div class="form-group">
