@@ -388,30 +388,42 @@ ul {
   list-style-type: none;
 }
 
+/* line 82, ../sass/custom.scss */
+div.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-family: Lato;
+}
+
 /*
 Full width page styles
 */
-/* line 88, ../sass/custom.scss */
+/* line 99, ../sass/custom.scss */
 body.full-width div.site-inner {
   max-width: 100%;
 }
-/* line 91, ../sass/custom.scss */
+/* line 102, ../sass/custom.scss */
 body.full-width div.site-inner article.entry {
   padding: 0;
 }
 
-/* line 97, ../sass/custom.scss */
+/* line 108, ../sass/custom.scss */
 .inside-container {
   max-width: 1200px;
   margin: 0 auto;
 }
-/* line 102, ../sass/custom.scss */
+/* line 113, ../sass/custom.scss */
 .inside-container .su-row {
   margin-bottom: 0;
   padding: 2%;
 }
 
-/* line 110, ../sass/custom.scss */
+/* line 121, ../sass/custom.scss */
 .clearfix:after {
   content: '';
   display: block;
@@ -505,12 +517,12 @@ header.site-header.nav-up {
 /**********
 5. CONTENT
 ***********/
-/* line 137, ../sass/custom.scss */
+/* line 148, ../sass/custom.scss */
 .site-inner {
   padding-top: 0;
 }
 
-/* line 141, ../sass/custom.scss */
+/* line 152, ../sass/custom.scss */
 .entry {
   padding-bottom: 10px;
   margin-bottom: 0;
@@ -1001,12 +1013,12 @@ body.my-work section.my-work__section--homestead a.see-more {
 /****************
 10. CONTACT FORMS
 *****************/
-/* line 172, ../sass/custom.scss */
+/* line 183, ../sass/custom.scss */
 form label {
   margin-bottom: 5px;
 }
 
-/* line 176, ../sass/custom.scss */
+/* line 187, ../sass/custom.scss */
 form input.form-control,
 form textarea {
   display: block;
@@ -1025,7 +1037,7 @@ form textarea {
   width: 100%;
 }
 
-/* line 197, ../sass/custom.scss */
+/* line 208, ../sass/custom.scss */
 form textarea {
   min-height: 100px;
 }
@@ -1034,25 +1046,25 @@ form textarea {
 XX. MEDIA QUERIES
 **************/
 @media only screen and (max-width: 960px) {
-  /* line 205, ../sass/custom.scss */
+  /* line 216, ../sass/custom.scss */
   .inside-container {
     padding: 0 35px;
   }
 }
 @media only screen and (max-width: 800px) {
-  /* line 211, ../sass/custom.scss */
+  /* line 222, ../sass/custom.scss */
   body.full-width .site-inner {
     padding-left: 0;
     padding-right: 0;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 218, ../sass/custom.scss */
+  /* line 229, ../sass/custom.scss */
   .nomobile {
     display: none;
   }
 
-  /* line 221, ../sass/custom.scss */
+  /* line 232, ../sass/custom.scss */
   .inside-container {
     padding: 0 20px;
   }

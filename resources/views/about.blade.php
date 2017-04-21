@@ -25,8 +25,11 @@
      </div>
 </section>
 <div class="white-ridges-up"></div>
-<section class="home__section home__section--contact">
+<section class="home__section home__section--contact" id="contact">
      <div class="inside-container">
+        @if(Session::has('success'))
+            <div class="alert-success"> {{ Session::get('success') }} </div>
+        @endif
         <h2>Want To Get In Touch?</h2>
         <form action="{{ url('/')  }}" method="POST">
             {{ csrf_field() }}

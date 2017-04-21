@@ -49,9 +49,9 @@ class PagesController extends Controller
             $emailHeader->subject('New Portfolio Contact');
         });
 
-        Session::flash('success', 'Your message has been received — I\'ll get back to you shortly!');
+        Session::flash('success', 'Your message has been received — I usually respond within 24 hours!');
 
-        return redirect('/')->with('success', 'Your message has been received — I\'ll get back to you shortly!');
+        return redirect('/#contact')->with('success', 'Your message has been received — I usually respond within 24 hours!');
     }
 
     public function my_work()
