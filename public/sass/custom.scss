@@ -68,7 +68,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Populaire';
+  font-family: 'Brandon Grotesque Light';
 }
 
 a {
@@ -182,6 +182,7 @@ body.full-width {
 
 form label {
   margin-bottom: 5px;
+  font-family: 'Lato';
 }
 form input.form-control,
 form textarea {
@@ -208,28 +209,33 @@ form input {
 form textarea {
   min-height: 100px;
 }
+
+input[type="submit"] {
+  color: #fff;
+  font-family: Lato;
+  text-transform: uppercase;
+  padding: 11px 30px;
+  border-radius: 2px;
+  margin-top: 27px;
+  display: block;
+  border: none;
+  margin: 20px 0 0;
+  text-align: center;
+  font-size: 1em;
+  background: #7bc4ae;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 /*************
 XX. MEDIA QUERIES
 **************/
+@import "partials/media-queries";
 
-@media only screen and (max-width: 960px) {
-  .inside-container {
-    padding: 0 35px;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  body.full-width .site-inner {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .nomobile {
-    display: none;
-  }
-  .inside-container {
-    padding: 0 20px;
-  }
-}

@@ -36,12 +36,16 @@ header.site-header {
           font-size: 1.6em;
           letter-spacing: 2px;
           color: #fff;
-          -webkit-transition: color 0.3s ease-in-out;
-          -moz-transition: color 0.3s ease-in-out;
-          -ms-transition: color 0.3s ease-in-out;
-          -o-transition: color 0.3s ease-in-out;
-          transition: color 0.3s ease-in-out;
+          -webkit-transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+          -moz-transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+          -ms-transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+          -o-transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+          transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
           font-family: 'Populaire';
+          -webkit-text-shadow: -1px 1px 1px #000;
+          -moz-text-shadow: -1px 1px 1px #000;
+          -ms-text-shadow: -1px 1px 1px #000;
+          -o-text-shadow: -1px 1px 1px #000;
           text-shadow: -1px 1px 1px #000;
         }
       }
@@ -60,7 +64,12 @@ header.site-header.nav-down:not(.top-of-page) {
     ul li {
 
       a {
-        color: #fff;
+        color: #000;
+        -webkit-text-shadow: none;
+        -moz-text-shadow: none;
+        -ms-text-shadow: none;
+        -o-text-shadow: none;
+        text-shadow: none;
       }
     }
   }

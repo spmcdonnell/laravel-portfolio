@@ -12,11 +12,7 @@ body.my-work {
     text-align: center;
     position: relative;
 
-    .static1,
-    .static2,
-    .static3,
-    .static4,
-    .static5 {
+    .static {
       height: 102vh;
       backface-visibility: hidden;
       overflow-y: auto;

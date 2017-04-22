@@ -375,7 +375,7 @@ body {
 
 /* line 70, ../sass/custom.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Populaire';
+  font-family: 'Brandon Grotesque Light';
 }
 
 /* line 74, ../sass/custom.scss */
@@ -480,33 +480,42 @@ header.site-header .wrap .primary-nav ul li a {
   font-size: 1.6em;
   letter-spacing: 2px;
   color: #fff;
-  -webkit-transition: color 0.3s ease-in-out;
-  -moz-transition: color 0.3s ease-in-out;
-  -ms-transition: color 0.3s ease-in-out;
-  -o-transition: color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+  -ms-transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
   font-family: 'Populaire';
+  -webkit-text-shadow: -1px 1px 1px #000;
+  -moz-text-shadow: -1px 1px 1px #000;
+  -ms-text-shadow: -1px 1px 1px #000;
+  -o-text-shadow: -1px 1px 1px #000;
   text-shadow: -1px 1px 1px #000;
 }
 
-/* line 52, ../sass/partials/_header.scss */
+/* line 56, ../sass/partials/_header.scss */
 header.site-header.nav-down:not(.top-of-page) {
   background: rgba(255, 255, 255, 0.97);
   -webkit-box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.7);
   box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.7);
 }
-/* line 62, ../sass/partials/_header.scss */
+/* line 66, ../sass/partials/_header.scss */
 header.site-header.nav-down:not(.top-of-page) .primary-nav ul li a {
-  color: #fff;
+  color: #000;
+  -webkit-text-shadow: none;
+  -moz-text-shadow: none;
+  -ms-text-shadow: none;
+  -o-text-shadow: none;
+  text-shadow: none;
 }
 
-/* line 69, ../sass/partials/_header.scss */
+/* line 78, ../sass/partials/_header.scss */
 header.site-header.nav-down.top-of-page {
   background-color: transparent;
 }
 
-/* line 73, ../sass/partials/_header.scss */
+/* line 82, ../sass/partials/_header.scss */
 header.site-header.nav-up {
   transform: translate3d(0, -101px, 0);
 }
@@ -675,20 +684,21 @@ main.content section.home__section--cityscape h1, main.content section.home__sec
   backface-visibility: hidden;
   text-align: center;
   text-shadow: -1px 1px 1px #000;
+  font-family: 'Populaire';
 }
-/* line 60, ../sass/partials/_home.scss */
+/* line 61, ../sass/partials/_home.scss */
 main.content section.home__section--cityscape h1 {
   margin-top: 190px;
   margin-bottom: 0;
   font-size: 5em;
 }
-/* line 66, ../sass/partials/_home.scss */
+/* line 67, ../sass/partials/_home.scss */
 main.content section.home__section--cityscape h2 {
   top: 286px;
   font-size: 2em;
   margin-top: 0;
 }
-/* line 72, ../sass/partials/_home.scss */
+/* line 73, ../sass/partials/_home.scss */
 main.content section.home__section--cityscape div.skyline {
   left: 0;
   right: 0;
@@ -697,35 +707,35 @@ main.content section.home__section--cityscape div.skyline {
   width: 100%;
   min-height: 1000px;
 }
-/* line 90, ../sass/partials/_home.scss */
+/* line 91, ../sass/partials/_home.scss */
 main.content section.home__section--cityscape div.skyline.skyline--first {
   background: url(/images/ground-newshadow.png);
   background-position: 50% 100%;
   min-height: 430px;
   bottom: 0;
 }
-/* line 97, ../sass/partials/_home.scss */
+/* line 98, ../sass/partials/_home.scss */
 main.content section.home__section--cityscape div.skyline.skyline--prlx-1 {
   background: url(/images/buildings-1-newshadow.png) 58% 0 no-repeat;
   min-height: 598px;
   position: fixed;
   top: 340px;
 }
-/* line 104, ../sass/partials/_home.scss */
+/* line 105, ../sass/partials/_home.scss */
 main.content section.home__section--cityscape div.skyline.skyline--prlx-2 {
   background: url(/images/buildings-2-newshadow.png) 30% 0 no-repeat;
   min-height: 600px;
   position: fixed;
   top: 245px;
 }
-/* line 111, ../sass/partials/_home.scss */
+/* line 112, ../sass/partials/_home.scss */
 main.content section.home__section--cityscape div.skyline.skyline--prlx-3 {
   background: url(/images/buildings-3-newshadow.png) 50% 0 no-repeat;
   min-height: 765px;
   position: fixed;
   top: 130px;
 }
-/* line 118, ../sass/partials/_home.scss */
+/* line 119, ../sass/partials/_home.scss */
 main.content section.home__section--cityscape div.skyline.skyline--cloud-1 {
   top: 150px;
   left: 0px;
@@ -737,7 +747,7 @@ main.content section.home__section--cityscape div.skyline.skyline--cloud-1 {
   max-width: 275px;
   animation: clouds-1 50s linear infinite, fade-in 4s linear;
 }
-/* line 130, ../sass/partials/_home.scss */
+/* line 131, ../sass/partials/_home.scss */
 main.content section.home__section--cityscape div.skyline.skyline--cloud-2 {
   top: 300px;
   right: -495px;
@@ -748,7 +758,7 @@ main.content section.home__section--cityscape div.skyline.skyline--cloud-2 {
   max-width: 495px;
   animation: clouds-2 80s linear, fade-in 4s linear;
 }
-/* line 141, ../sass/partials/_home.scss */
+/* line 142, ../sass/partials/_home.scss */
 main.content section.home__section--cityscape div.skyline.skyline--balloons {
   top: 12%;
   left: -10%;
@@ -761,7 +771,7 @@ main.content section.home__section--cityscape div.skyline.skyline--balloons {
   max-width: 650px;
   animation-direction: alternate;
 }
-/* line 155, ../sass/partials/_home.scss */
+/* line 156, ../sass/partials/_home.scss */
 main.content section.home__section--cityscape div.skyline.skyline--sunbox {
   top: 0;
   left: 0;
@@ -770,7 +780,7 @@ main.content section.home__section--cityscape div.skyline.skyline--sunbox {
   min-height: 100px;
   position: fixed;
 }
-/* line 163, ../sass/partials/_home.scss */
+/* line 164, ../sass/partials/_home.scss */
 main.content section.home__section--cityscape div.skyline.skyline--sunbox div.sun-rays {
   position: absolute;
   top: 120px;
@@ -781,7 +791,7 @@ main.content section.home__section--cityscape div.skyline.skyline--sunbox div.su
   background-size: cover;
   animation: sunrays 30s linear infinite;
 }
-/* line 174, ../sass/partials/_home.scss */
+/* line 175, ../sass/partials/_home.scss */
 main.content section.home__section--cityscape div.skyline.skyline--sunbox div.the-sun {
   position: absolute;
   top: 50%;
@@ -803,7 +813,7 @@ main.content section.home__section--cityscape div.skyline.skyline--sunbox div.th
   perspective: 1000;
 }
 
-/* line 198, ../sass/partials/_home.scss */
+/* line 199, ../sass/partials/_home.scss */
 section.home__section--contact {
   color: #000;
 }
@@ -830,12 +840,8 @@ body.my-work section.my-work__section {
   text-align: center;
   position: relative;
 }
-/* line 19, ../sass/partials/_my-work.scss */
-body.my-work section.my-work__section .static1,
-body.my-work section.my-work__section .static2,
-body.my-work section.my-work__section .static3,
-body.my-work section.my-work__section .static4,
-body.my-work section.my-work__section .static5 {
+/* line 15, ../sass/partials/_my-work.scss */
+body.my-work section.my-work__section .static {
   height: 102vh;
   backface-visibility: hidden;
   overflow-y: auto;
@@ -845,41 +851,37 @@ body.my-work section.my-work__section .static5 {
   float: left;
   background: #616965;
 }
-/* line 29, ../sass/partials/_my-work.scss */
-body.my-work section.my-work__section .static1 .desc,
-body.my-work section.my-work__section .static2 .desc,
-body.my-work section.my-work__section .static3 .desc,
-body.my-work section.my-work__section .static4 .desc,
-body.my-work section.my-work__section .static5 .desc {
+/* line 25, ../sass/partials/_my-work.scss */
+body.my-work section.my-work__section .static .desc {
   position: absolute;
   width: 80%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 39, ../sass/partials/_my-work.scss */
+/* line 35, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .static2,
 body.my-work section.my-work__section .static4 {
   float: right;
   right: 0;
 }
-/* line 44, ../sass/partials/_my-work.scss */
+/* line 40, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .static2 {
   background: #006241;
 }
-/* line 48, ../sass/partials/_my-work.scss */
+/* line 44, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .static3 {
   background: #669999;
 }
-/* line 52, ../sass/partials/_my-work.scss */
+/* line 48, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .static4 {
   background: #3ea430;
 }
-/* line 56, ../sass/partials/_my-work.scss */
+/* line 52, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .static5 {
   background: #e44d52;
 }
-/* line 60, ../sass/partials/_my-work.scss */
+/* line 56, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .scroll-content {
   width: 50%;
   position: relative;
@@ -888,13 +890,13 @@ body.my-work section.my-work__section .scroll-content {
   background: #fff;
   padding: 50px 0;
 }
-/* line 68, ../sass/partials/_my-work.scss */
+/* line 64, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .scroll-content img {
   -webkit-box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.3);
 }
-/* line 74, ../sass/partials/_my-work.scss */
+/* line 70, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .scroll-content img.mobile {
   box-shadow: none;
   filter: drop-shadow(0 0 17px rgba(0, 0, 0, 0.3));
@@ -903,19 +905,19 @@ body.my-work section.my-work__section .scroll-content img.mobile {
   top: 150px;
   width: 150px;
 }
-/* line 85, ../sass/partials/_my-work.scss */
+/* line 81, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .static2 + .scroll-content,
 body.my-work section.my-work__section .static4 + .scroll-content {
   float: left;
 }
-/* line 89, ../sass/partials/_my-work.scss */
+/* line 85, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section p {
   font-size: 1.1em;
   font-family: Lato;
   line-height: 1.6;
   font-weight: 300;
 }
-/* line 96, ../sass/partials/_my-work.scss */
+/* line 92, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section h2 {
   text-align: center;
   color: #fff;
@@ -923,7 +925,7 @@ body.my-work section.my-work__section h2 {
   font-size: 2.1em;
   margin-bottom: 0;
 }
-/* line 104, ../sass/partials/_my-work.scss */
+/* line 100, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section h3 {
   margin-top: 0;
   font-family: Lato;
@@ -931,7 +933,7 @@ body.my-work section.my-work__section h3 {
   font-size: 1.2em;
   margin-bottom: 45px;
 }
-/* line 112, ../sass/partials/_my-work.scss */
+/* line 108, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section a.see-more {
   color: #fff;
   font-family: Lato;
@@ -943,7 +945,7 @@ body.my-work section.my-work__section a.see-more {
   width: 100px;
   margin: 45px auto 0;
 }
-/* line 124, ../sass/partials/_my-work.scss */
+/* line 120, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .placeholder-img {
   width: 600px;
   height: 400px;
@@ -953,59 +955,59 @@ body.my-work section.my-work__section .placeholder-img {
   -moz-box-shadow: 0px 4px 17px 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 4px 17px 5px rgba(0, 0, 0, 0.3);
 }
-/* line 132, ../sass/partials/_my-work.scss */
+/* line 128, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .fixed {
   position: fixed !important;
 }
-/* line 136, ../sass/partials/_my-work.scss */
+/* line 132, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .bottom-zero {
   bottom: 0 !important;
   top: initial !important;
   position: absolute !important;
 }
-/* line 143, ../sass/partials/_my-work.scss */
+/* line 139, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--hero {
   min-height: 600px;
   background: #e44d52;
 }
-/* line 148, ../sass/partials/_my-work.scss */
+/* line 144, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--edwrks {
   background: #616965;
   padding: 0;
 }
-/* line 152, ../sass/partials/_my-work.scss */
+/* line 148, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--edwrks a.see-more {
   background-color: #ffc501;
 }
-/* line 157, ../sass/partials/_my-work.scss */
+/* line 153, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--elevate {
   background: #006241;
 }
-/* line 160, ../sass/partials/_my-work.scss */
+/* line 156, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--elevate a.see-more {
   background-color: #00aeef;
 }
-/* line 165, ../sass/partials/_my-work.scss */
+/* line 161, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--mantis {
   background: #e44d52;
 }
-/* line 169, ../sass/partials/_my-work.scss */
+/* line 165, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--skinny {
   background: #3ea430;
 }
-/* line 172, ../sass/partials/_my-work.scss */
+/* line 168, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--skinny a.see-more {
   background-color: #55565a;
 }
-/* line 177, ../sass/partials/_my-work.scss */
+/* line 173, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--concept-art {
   background: #e44d52;
 }
-/* line 181, ../sass/partials/_my-work.scss */
+/* line 177, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--homestead {
   background: #669999;
 }
-/* line 184, ../sass/partials/_my-work.scss */
+/* line 180, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--homestead a.see-more {
   background-color: #ca8200;
 }
@@ -1016,9 +1018,10 @@ body.my-work section.my-work__section--homestead a.see-more {
 /* line 183, ../sass/custom.scss */
 form label {
   margin-bottom: 5px;
+  font-family: 'Lato';
 }
 
-/* line 187, ../sass/custom.scss */
+/* line 188, ../sass/custom.scss */
 form input.form-control,
 form textarea {
   display: block;
@@ -1037,35 +1040,105 @@ form textarea {
   width: 100%;
 }
 
-/* line 208, ../sass/custom.scss */
+/* line 209, ../sass/custom.scss */
 form textarea {
   min-height: 100px;
+}
+
+/* line 213, ../sass/custom.scss */
+input[type="submit"] {
+  color: #fff;
+  font-family: Lato;
+  text-transform: uppercase;
+  padding: 11px 30px;
+  border-radius: 2px;
+  margin-top: 27px;
+  display: block;
+  border: none;
+  margin: 20px 0 0;
+  text-align: center;
+  font-size: 1em;
+  background: #7bc4ae;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+/* line 233, ../sass/custom.scss */
+input[type="submit"]:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 /*************
 XX. MEDIA QUERIES
 **************/
+@media only screen and (max-width: 1100px) {
+  /* line 2, ../sass/partials/_media-queries.scss */
+  body.my-work section.my-work__section .scroll-content img {
+    width: 420px;
+  }
+}
 @media only screen and (max-width: 960px) {
-  /* line 216, ../sass/custom.scss */
+  /* line 8, ../sass/partials/_media-queries.scss */
   .inside-container {
     padding: 0 35px;
   }
 }
+@media only screen and (max-width: 900px) {
+  /* line 14, ../sass/partials/_media-queries.scss */
+  body.my-work section.my-work__section .scroll-content img {
+    width: 380px;
+  }
+}
 @media only screen and (max-width: 800px) {
-  /* line 222, ../sass/custom.scss */
+  /* line 20, ../sass/partials/_media-queries.scss */
   body.full-width .site-inner {
     padding-left: 0;
     padding-right: 0;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 229, ../sass/custom.scss */
+  /* line 27, ../sass/partials/_media-queries.scss */
   .nomobile {
     display: none;
   }
 
-  /* line 232, ../sass/custom.scss */
+  /* line 31, ../sass/partials/_media-queries.scss */
   .inside-container {
     padding: 0 20px;
+  }
+
+  /* line 35, ../sass/partials/_media-queries.scss */
+  body.my-work {
+    font-size: 0.8em;
+  }
+
+  /* line 41, ../sass/partials/_media-queries.scss */
+  body.my-work section.my-work__section .scroll-content,
+  body.my-work section.my-work__section .static {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+  }
+  /* line 48, ../sass/partials/_media-queries.scss */
+  body.my-work section.my-work__section .static .desc {
+    position: initial;
+    transform: none;
+    width: 90%;
+    margin: 0 auto;
+  }
+  /* line 55, ../sass/partials/_media-queries.scss */
+  body.my-work section.my-work__section h2 {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 62, ../sass/partials/_media-queries.scss */
+  body.my-work section.my-work__section .scroll-content img {
+    width: 85%;
   }
 }
