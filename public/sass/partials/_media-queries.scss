@@ -88,8 +88,17 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
-  body.my-work section.my-work__section .scroll-content img {
-    width: auto;
+@media only screen and (max-width: 580px) {
+  body.my-work section.my-work__section {
+    .scroll-content {
+      img {
+        width: 85%;
+      }
+
+      img.mobile {
+        display: none;
+      }
+
+    }
   }
 }
