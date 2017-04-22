@@ -19,8 +19,10 @@
             </div>
         </div>
         <div class="scroll-content">
-            <img src="/images/educationworks-homepage.jpg">
-            <img class="mobile" src="/images/eduwo-phone.png">
+            <div style="position: relative; display: inline-block">
+                <img src="/images/educationworks-homepage.jpg">
+                <img class="mobile" width="150" src="/images/eduwo-phone.png">
+            </div>
             <img style="margin-top: 40px;" src="/images/educationworks-get-involved.jpg">
         </div>
     </div>

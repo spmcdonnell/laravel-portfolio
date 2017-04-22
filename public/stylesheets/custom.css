@@ -901,8 +901,8 @@ body.my-work section.my-work__section .scroll-content img.mobile {
   box-shadow: none;
   filter: drop-shadow(0 0 17px rgba(0, 0, 0, 0.3));
   position: absolute;
-  right: 34px;
-  top: 150px;
+  right: -20px;
+  top: 100px;
   width: 150px;
 }
 /* line 81, ../sass/partials/_my-work.scss */
@@ -1075,48 +1075,62 @@ input[type="submit"]:hover {
 /*************
 XX. MEDIA QUERIES
 **************/
-@media only screen and (max-width: 1100px) {
-  /* line 2, ../sass/partials/_media-queries.scss */
+@media only screen and (max-width: 1125px) {
+  /* line 3, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .scroll-content img {
     width: 420px;
   }
+  /* line 7, ../sass/partials/_media-queries.scss */
+  body.my-work section.my-work__section .scroll-content img.mobile {
+    width: 112px;
+  }
 }
 @media only screen and (max-width: 960px) {
-  /* line 8, ../sass/partials/_media-queries.scss */
+  /* line 14, ../sass/partials/_media-queries.scss */
   .inside-container {
     padding: 0 35px;
   }
 }
-@media only screen and (max-width: 900px) {
-  /* line 14, ../sass/partials/_media-queries.scss */
+@media only screen and (max-width: 930px) {
+  /* line 21, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .scroll-content img {
     width: 380px;
   }
+  /* line 25, ../sass/partials/_media-queries.scss */
+  body.my-work section.my-work__section .scroll-content img.mobile {
+    width: 97px;
+  }
+}
+@media only screen and (max-width: 860px) {
+  /* line 33, ../sass/partials/_media-queries.scss */
+  body.my-work section.my-work__section .scroll-content img.mobile {
+    right: 0;
+  }
 }
 @media only screen and (max-width: 800px) {
-  /* line 20, ../sass/partials/_media-queries.scss */
+  /* line 40, ../sass/partials/_media-queries.scss */
   body.full-width .site-inner {
     padding-left: 0;
     padding-right: 0;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 27, ../sass/partials/_media-queries.scss */
+  /* line 47, ../sass/partials/_media-queries.scss */
   .nomobile {
     display: none;
   }
 
-  /* line 31, ../sass/partials/_media-queries.scss */
+  /* line 51, ../sass/partials/_media-queries.scss */
   .inside-container {
     padding: 0 20px;
   }
 
-  /* line 35, ../sass/partials/_media-queries.scss */
+  /* line 55, ../sass/partials/_media-queries.scss */
   body.my-work {
     font-size: 0.8em;
   }
 
-  /* line 41, ../sass/partials/_media-queries.scss */
+  /* line 61, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .scroll-content,
   body.my-work section.my-work__section .static {
     position: relative;
@@ -1124,21 +1138,30 @@ XX. MEDIA QUERIES
     height: auto;
     padding: 30px 0;
   }
-  /* line 48, ../sass/partials/_media-queries.scss */
+  /* line 69, ../sass/partials/_media-queries.scss */
+  body.my-work section.my-work__section .scroll-content img {
+    width: auto;
+  }
+  /* line 73, ../sass/partials/_media-queries.scss */
+  body.my-work section.my-work__section .scroll-content img.mobile {
+    right: -20px;
+    width: 150px;
+  }
+  /* line 78, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .static .desc {
     position: initial;
     transform: none;
     width: 90%;
     margin: 0 auto;
   }
-  /* line 55, ../sass/partials/_media-queries.scss */
+  /* line 85, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section h2 {
     margin-top: 0;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 62, ../sass/partials/_media-queries.scss */
+  /* line 92, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .scroll-content img {
-    width: 85%;
+    width: auto;
   }
 }
