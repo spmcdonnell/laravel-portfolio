@@ -150,82 +150,67 @@ My Works Page
   }
 
   /* line 100, ../sass/partials/_animations.scss */
-  99% {
-    transform: translate3d(-100vw, 0, 0);
-  }
-
-  /* line 104, ../sass/partials/_animations.scss */
   100% {
-    display: none;
+    transform: translate3d(-100vw, 0, 0);
   }
 }
 
 @-webkit-keyframes clouds-2 {
-  /* line 110, ../sass/partials/_animations.scss */
+  /* line 106, ../sass/partials/_animations.scss */
   0% {
     transform: translate3d(0, 0, 0);
   }
 
-  /* line 114, ../sass/partials/_animations.scss */
-  99% {
-    transform: translate3d(-100vw, 0, 0);
-  }
-
-  /* line 118, ../sass/partials/_animations.scss */
+  /* line 110, ../sass/partials/_animations.scss */
   100% {
-    display: none;
+    transform: translate3d(-100vw, 0, 0);
   }
 }
 
 @-moz-keyframes clouds-2 {
-  /* line 124, ../sass/partials/_animations.scss */
+  /* line 116, ../sass/partials/_animations.scss */
   0% {
     transform: translate3d(0, 0, 0);
   }
 
-  /* line 128, ../sass/partials/_animations.scss */
-  99% {
-    transform: translate3d(-100vw, 0, 0);
-  }
-
-  /* line 132, ../sass/partials/_animations.scss */
+  /* line 120, ../sass/partials/_animations.scss */
   100% {
-    display: none;
+    transform: translate3d(-100vw, 0, 0);
   }
 }
 
 /****************** Sun ******************/
 @keyframes sun {
-  /* line 139, ../sass/partials/_animations.scss */
+  /* line 127, ../sass/partials/_animations.scss */
   0% {
     background-color: #ffb318;
   }
 
-  /* line 143, ../sass/partials/_animations.scss */
+  /* line 131, ../sass/partials/_animations.scss */
   100% {
     background-color: #ffda4a;
   }
 }
 
 @-webkit-keyframes sun {
-  /* line 149, ../sass/partials/_animations.scss */
+  /* line 137, ../sass/partials/_animations.scss */
   0% {
     background-color: #ffb318;
   }
 
-  /* line 153, ../sass/partials/_animations.scss */
+  /* line 141, ../sass/partials/_animations.scss */
   100% {
     background-color: #ffda4a;
   }
 }
 
 @-moz-keyframes sun {
-  /* line 159, ../sass/partials/_animations.scss */
+  /* line 147, ../sass/partials/_animations.scss */
   0% {
     background-color: #ffb318;
   }
 
-  /* line 163, ../sass/partials/_animations.scss */
+  /* line 151, ../sass/partials/_animations.scss */
   100% {
     background-color: #ffda4a;
   }
@@ -233,36 +218,36 @@ My Works Page
 
 /****************** Sun Rays ******************/
 @keyframes sunrays {
-  /* line 171, ../sass/partials/_animations.scss */
+  /* line 159, ../sass/partials/_animations.scss */
   0% {
     transform: rotate(0deg);
   }
 
-  /* line 175, ../sass/partials/_animations.scss */
+  /* line 163, ../sass/partials/_animations.scss */
   100% {
     transform: rotate(360deg);
   }
 }
 
 @-webkit-keyframes sunrays {
-  /* line 181, ../sass/partials/_animations.scss */
+  /* line 169, ../sass/partials/_animations.scss */
   0% {
     transform: rotate(0deg);
   }
 
-  /* line 185, ../sass/partials/_animations.scss */
+  /* line 173, ../sass/partials/_animations.scss */
   100% {
     transform: rotate(360deg);
   }
 }
 
 @-moz-keyframes sunrays {
-  /* line 191, ../sass/partials/_animations.scss */
+  /* line 179, ../sass/partials/_animations.scss */
   0% {
     transform: rotate(0deg);
   }
 
-  /* line 195, ../sass/partials/_animations.scss */
+  /* line 183, ../sass/partials/_animations.scss */
   100% {
     transform: rotate(360deg);
   }
@@ -270,36 +255,36 @@ My Works Page
 
 /******************* Day to Night ********************/
 @keyframes day-to-night {
-  /* line 202, ../sass/partials/_animations.scss */
+  /* line 190, ../sass/partials/_animations.scss */
   0% {
     background-color: #280035;
   }
 
-  /* line 206, ../sass/partials/_animations.scss */
+  /* line 194, ../sass/partials/_animations.scss */
   100% {
     background-color: #a0d0fd;
   }
 }
 
 @-webkit-keyframes day-to-night {
-  /* line 212, ../sass/partials/_animations.scss */
+  /* line 200, ../sass/partials/_animations.scss */
   0% {
     background-color: #280035;
   }
 
-  /* line 216, ../sass/partials/_animations.scss */
+  /* line 204, ../sass/partials/_animations.scss */
   100% {
     background-color: #a0d0fd;
   }
 }
 
 @-moz-keyframes day-to-night {
-  /* line 222, ../sass/partials/_animations.scss */
+  /* line 210, ../sass/partials/_animations.scss */
   0% {
     background-color: #280035;
   }
 
-  /* line 226, ../sass/partials/_animations.scss */
+  /* line 214, ../sass/partials/_animations.scss */
   100% {
     background-color: #a0d0fd;
   }
@@ -307,36 +292,36 @@ My Works Page
 
 /******************* Balloon ********************/
 @keyframes balloon-float {
-  /* line 233, ../sass/partials/_animations.scss */
+  /* line 221, ../sass/partials/_animations.scss */
   0% {
     transform: translate3d(0, -20px, 0);
   }
 
-  /* line 237, ../sass/partials/_animations.scss */
+  /* line 225, ../sass/partials/_animations.scss */
   100% {
     transform: translate3d(0, 20px, 0);
   }
 }
 
 @-webkit-keyframes balloon-float {
-  /* line 243, ../sass/partials/_animations.scss */
+  /* line 231, ../sass/partials/_animations.scss */
   0% {
     transform: translate3d(0, -20px, 0);
   }
 
-  /* line 247, ../sass/partials/_animations.scss */
+  /* line 235, ../sass/partials/_animations.scss */
   100% {
     transform: translate3d(0, 20px, 0);
   }
 }
 
 @-moz-keyframes balloon-float {
-  /* line 253, ../sass/partials/_animations.scss */
+  /* line 241, ../sass/partials/_animations.scss */
   0% {
     transform: translate3d(0, -20px, 0);
   }
 
-  /* line 257, ../sass/partials/_animations.scss */
+  /* line 245, ../sass/partials/_animations.scss */
   100% {
     transform: translate3d(0, 20px, 0);
   }
@@ -757,8 +742,10 @@ main.content section.home__section--cityscape div.skyline.skyline--cloud-2 {
   min-height: 97px;
   max-width: 495px;
   animation: clouds-2 80s linear, fade-in 4s linear;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
 }
-/* line 142, ../sass/partials/_home.scss */
+/* line 144, ../sass/partials/_home.scss */
 main.content section.home__section--cityscape div.skyline.skyline--balloons {
   top: 12%;
   left: -10%;
@@ -771,7 +758,7 @@ main.content section.home__section--cityscape div.skyline.skyline--balloons {
   max-width: 650px;
   animation-direction: alternate;
 }
-/* line 156, ../sass/partials/_home.scss */
+/* line 158, ../sass/partials/_home.scss */
 main.content section.home__section--cityscape div.skyline.skyline--sunbox {
   top: 0;
   left: 0;
@@ -780,7 +767,7 @@ main.content section.home__section--cityscape div.skyline.skyline--sunbox {
   min-height: 100px;
   position: fixed;
 }
-/* line 164, ../sass/partials/_home.scss */
+/* line 166, ../sass/partials/_home.scss */
 main.content section.home__section--cityscape div.skyline.skyline--sunbox div.sun-rays {
   position: absolute;
   top: 120px;
@@ -791,7 +778,7 @@ main.content section.home__section--cityscape div.skyline.skyline--sunbox div.su
   background-size: cover;
   animation: sunrays 30s linear infinite;
 }
-/* line 175, ../sass/partials/_home.scss */
+/* line 177, ../sass/partials/_home.scss */
 main.content section.home__section--cityscape div.skyline.skyline--sunbox div.the-sun {
   position: absolute;
   top: 50%;
@@ -813,7 +800,7 @@ main.content section.home__section--cityscape div.skyline.skyline--sunbox div.th
   perspective: 1000;
 }
 
-/* line 199, ../sass/partials/_home.scss */
+/* line 201, ../sass/partials/_home.scss */
 section.home__section--contact {
   color: #000;
 }

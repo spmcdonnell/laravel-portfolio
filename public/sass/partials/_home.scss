@@ -137,6 +137,8 @@ main.content section.home__section--cityscape {
     min-height: 97px;
     max-width: 495px;
     animation: clouds-2 80s linear, fade-in 4s linear;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
   }
 
   div.skyline.skyline--balloons {
