@@ -708,7 +708,7 @@ main.content section.home__section--cityscape div.skyline.skyline--prlx-1 {
 }
 /* line 105, ../sass/partials/_home.scss */
 main.content section.home__section--cityscape div.skyline.skyline--prlx-2 {
-  background: url(/images/buildings-2-newshadow.png) 30% 0 no-repeat;
+  background: url(/images/buildings-2-newshadow.png) 50% 0 no-repeat;
   min-height: 600px;
   position: fixed;
   top: 245px;
