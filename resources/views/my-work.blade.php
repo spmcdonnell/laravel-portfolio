@@ -19,9 +19,11 @@
             </div>
         </div>
         <div class="scroll-content">
-            <div style="position: relative; display: inline-block">
-                <img src="/images/educationworks-homepage.jpg">
-                <img class="mobile" width="150" src="/images/eduwo-phone.png">
+            <div>
+                <div style="position: relative; display: inline-block">
+                    <img src="/images/educationworks-homepage.jpg">
+                    <img class="mobile" width="150" src="/images/eduwo-phone.png">
+                </div>
             </div>
             <img style="margin-top: 40px;" src="/images/educationworks-get-involved.jpg">
         </div>
@@ -72,7 +74,9 @@
             </div>
         </div>
         <div class="scroll-content">
-            <img src="/images/skinny-homepage.jpg">
+            <div class="height-fix">
+                <img src="/images/skinny-homepage.jpg">
+            </div>
         </div>
     </div>
 </section>
@@ -87,8 +91,10 @@
             </div>
         </div>
         <div class="scroll-content">
-            <img src="/images/sponge-cleaner-final.jpg">
-            <img style="margin-top: 40px;" src="/images/sponge-cleaner.jpg">
+            <div class="height-fix">
+                <img src="/images/sponge-cleaner-final.jpg">
+                <img style="margin-top: 40px;" src="/images/sponge-cleaner.jpg">
+            </div>
         </div>
     </div>
 </section>

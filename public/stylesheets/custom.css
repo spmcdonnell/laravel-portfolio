@@ -876,14 +876,26 @@ body.my-work section.my-work__section .scroll-content {
   float: right;
   background: #fff;
   padding: 50px 0;
+  min-height: 102vh;
 }
-/* line 64, ../sass/partials/_my-work.scss */
+/* line 65, ../sass/partials/_my-work.scss */
+body.my-work section.my-work__section .scroll-content div.height-fix {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* line 76, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .scroll-content img {
   -webkit-box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.3);
 }
-/* line 70, ../sass/partials/_my-work.scss */
+/* line 82, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .scroll-content img.mobile {
   box-shadow: none;
   filter: drop-shadow(0 0 17px rgba(0, 0, 0, 0.3));
@@ -892,19 +904,19 @@ body.my-work section.my-work__section .scroll-content img.mobile {
   top: 100px;
   width: 150px;
 }
-/* line 81, ../sass/partials/_my-work.scss */
+/* line 93, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .static2 + .scroll-content,
 body.my-work section.my-work__section .static4 + .scroll-content {
   float: left;
 }
-/* line 85, ../sass/partials/_my-work.scss */
+/* line 97, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section p {
   font-size: 1.1em;
   font-family: Lato;
   line-height: 1.6;
   font-weight: 300;
 }
-/* line 92, ../sass/partials/_my-work.scss */
+/* line 104, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section h2 {
   text-align: center;
   color: #fff;
@@ -912,7 +924,7 @@ body.my-work section.my-work__section h2 {
   font-size: 2.1em;
   margin-bottom: 0;
 }
-/* line 100, ../sass/partials/_my-work.scss */
+/* line 112, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section h3 {
   margin-top: 0;
   font-family: Lato;
@@ -920,7 +932,7 @@ body.my-work section.my-work__section h3 {
   font-size: 1.2em;
   margin-bottom: 45px;
 }
-/* line 108, ../sass/partials/_my-work.scss */
+/* line 120, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section a.see-more {
   color: #fff;
   font-family: Lato;
@@ -932,7 +944,7 @@ body.my-work section.my-work__section a.see-more {
   width: 100px;
   margin: 45px auto 0;
 }
-/* line 120, ../sass/partials/_my-work.scss */
+/* line 132, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .placeholder-img {
   width: 600px;
   height: 400px;
@@ -942,59 +954,59 @@ body.my-work section.my-work__section .placeholder-img {
   -moz-box-shadow: 0px 4px 17px 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 4px 17px 5px rgba(0, 0, 0, 0.3);
 }
-/* line 128, ../sass/partials/_my-work.scss */
+/* line 140, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .fixed {
   position: fixed !important;
 }
-/* line 132, ../sass/partials/_my-work.scss */
+/* line 144, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .bottom-zero {
   bottom: 0 !important;
   top: initial !important;
   position: absolute !important;
 }
-/* line 139, ../sass/partials/_my-work.scss */
+/* line 151, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--hero {
   min-height: 600px;
   background: #e44d52;
 }
-/* line 144, ../sass/partials/_my-work.scss */
+/* line 156, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--edwrks {
   background: #616965;
   padding: 0;
 }
-/* line 148, ../sass/partials/_my-work.scss */
+/* line 160, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--edwrks a.see-more {
   background-color: #ffc501;
 }
-/* line 153, ../sass/partials/_my-work.scss */
+/* line 165, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--elevate {
   background: #006241;
 }
-/* line 156, ../sass/partials/_my-work.scss */
+/* line 168, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--elevate a.see-more {
   background-color: #00aeef;
 }
-/* line 161, ../sass/partials/_my-work.scss */
+/* line 173, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--mantis {
   background: #e44d52;
 }
-/* line 165, ../sass/partials/_my-work.scss */
+/* line 177, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--skinny {
   background: #3ea430;
 }
-/* line 168, ../sass/partials/_my-work.scss */
+/* line 180, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--skinny a.see-more {
   background-color: #55565a;
 }
-/* line 173, ../sass/partials/_my-work.scss */
+/* line 185, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--concept-art {
   background: #e44d52;
 }
-/* line 177, ../sass/partials/_my-work.scss */
+/* line 189, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--homestead {
   background: #669999;
 }
-/* line 180, ../sass/partials/_my-work.scss */
+/* line 192, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--homestead a.see-more {
   background-color: #ca8200;
 }

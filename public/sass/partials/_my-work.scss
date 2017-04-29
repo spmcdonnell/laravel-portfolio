@@ -60,6 +60,18 @@ body.my-work {
       float: right;
       background: #fff;
       padding: 50px 0;
+      min-height: 102vh;
+      
+      div.height-fix {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
 
       img {
         -webkit-box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.3);
