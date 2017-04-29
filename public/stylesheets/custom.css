@@ -878,17 +878,6 @@ body.my-work section.my-work__section .scroll-content {
   padding: 50px 0;
   min-height: 102vh;
 }
-/* line 65, ../sass/partials/_my-work.scss */
-body.my-work section.my-work__section .scroll-content div.height-fix {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
 /* line 76, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .scroll-content img {
   -webkit-box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.3);
