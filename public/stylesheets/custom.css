@@ -694,7 +694,7 @@ main.content section.home__section--cityscape div.skyline {
 }
 /* line 91, ../sass/partials/_home.scss */
 main.content section.home__section--cityscape div.skyline.skyline--first {
-  background: url(/images/ground-newshadow.png);
+  background: url(/images/ground-newshadow-1.png);
   background-position: 50% 100%;
   min-height: 430px;
   bottom: 0;
