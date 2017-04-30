@@ -695,7 +695,7 @@ main.content section.home__section--cityscape div.skyline {
 }
 /* line 91, ../sass/partials/_home.scss */
 main.content section.home__section--cityscape div.skyline.skyline--first {
-  background: url(/images/ground-newshadow-1.png) no-repeat;
+  background: url(/images/ground-newshadow-1.png) repeat-x;
   background-position: 50% 100%;
   min-height: 430px;
   bottom: 0;
@@ -1152,49 +1152,54 @@ XX. MEDIA QUERIES
 }
 @media only screen and (max-width: 768px) {
   /* line 102, ../sass/partials/_media-queries.scss */
+  header.site-header {
+    position: absolute;
+  }
+
+  /* line 106, ../sass/partials/_media-queries.scss */
   header.site-header .wrap {
     max-width: 600px;
     padding: 0 30px;
   }
 
-  /* line 107, ../sass/partials/_media-queries.scss */
+  /* line 111, ../sass/partials/_media-queries.scss */
   .nomobile {
     display: none;
   }
 
-  /* line 111, ../sass/partials/_media-queries.scss */
+  /* line 115, ../sass/partials/_media-queries.scss */
   .inside-container {
     padding: 0 20px;
   }
 
-  /* line 115, ../sass/partials/_media-queries.scss */
+  /* line 119, ../sass/partials/_media-queries.scss */
   body.my-work {
     font-size: 0.8em;
   }
 
-  /* line 119, ../sass/partials/_media-queries.scss */
+  /* line 123, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline {
     position: absolute !important;
   }
-  /* line 122, ../sass/partials/_media-queries.scss */
+  /* line 126, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline div.skyline.skyline--prlx-1 {
     top: 340px;
   }
-  /* line 125, ../sass/partials/_media-queries.scss */
+  /* line 129, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline div.skyline.skyline--prlx-2 {
     top: 300px;
   }
-  /* line 128, ../sass/partials/_media-queries.scss */
+  /* line 132, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline div.skyline.skyline--prlx-3 {
     top: 270px;
   }
 
-  /* line 133, ../sass/partials/_media-queries.scss */
+  /* line 137, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape h1, main.content section.home__section--cityscape h2 {
     position: absolute;
   }
 
-  /* line 139, ../sass/partials/_media-queries.scss */
+  /* line 143, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .scroll-content,
   body.my-work section.my-work__section .static {
     position: relative;
@@ -1202,56 +1207,56 @@ XX. MEDIA QUERIES
     height: auto;
     padding: 30px 0;
   }
-  /* line 147, ../sass/partials/_media-queries.scss */
+  /* line 151, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .scroll-content img {
     width: auto;
   }
-  /* line 151, ../sass/partials/_media-queries.scss */
+  /* line 155, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .scroll-content img.mobile {
     right: -20px;
     width: 150px;
   }
-  /* line 156, ../sass/partials/_media-queries.scss */
+  /* line 160, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .static .desc {
     position: initial;
     transform: none;
     width: 90%;
     margin: 0 auto;
   }
-  /* line 163, ../sass/partials/_media-queries.scss */
+  /* line 167, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section h2 {
     margin-top: 0;
   }
 }
 @media only screen and (max-width: 700px) {
-  /* line 170, ../sass/partials/_media-queries.scss */
+  /* line 174, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape {
     min-height: 600px;
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 176, ../sass/partials/_media-queries.scss */
+  /* line 180, ../sass/partials/_media-queries.scss */
   header.site-header .wrap {
     max-width: 500px;
   }
 
-  /* line 180, ../sass/partials/_media-queries.scss */
+  /* line 184, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--sunbox div.the-sun {
     height: 50px;
     width: 50px;
   }
 
-  /* line 185, ../sass/partials/_media-queries.scss */
+  /* line 189, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--sunbox div.sun-rays {
     height: 60px;
     width: 60px;
   }
 
-  /* line 190, ../sass/partials/_media-queries.scss */
+  /* line 194, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape {
     font-size: 0.7em;
   }
-  /* line 193, ../sass/partials/_media-queries.scss */
+  /* line 197, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape h1, main.content section.home__section--cityscape h2 {
     -webkit-text-shadow: none;
     -moz-text-shadow: none;
@@ -1259,60 +1264,60 @@ XX. MEDIA QUERIES
     -o-text-shadow: none;
     text-shadow: none;
   }
-  /* line 201, ../sass/partials/_media-queries.scss */
+  /* line 205, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape h2 {
     top: 245px;
   }
 }
 @media only screen and (max-width: 580px) {
-  /* line 210, ../sass/partials/_media-queries.scss */
+  /* line 214, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .scroll-content img {
     width: 85%;
   }
-  /* line 214, ../sass/partials/_media-queries.scss */
+  /* line 218, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .scroll-content img.mobile {
     display: none;
   }
 }
 @media only screen and (max-width: 550px) {
-  /* line 222, ../sass/partials/_media-queries.scss */
+  /* line 226, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape {
     min-height: 560px;
     font-size: 0.6em;
   }
-  /* line 226, ../sass/partials/_media-queries.scss */
+  /* line 230, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape h2 {
     top: 240px;
   }
-  /* line 230, ../sass/partials/_media-queries.scss */
+  /* line 234, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--prlx-3 {
     top: 240px;
   }
-  /* line 234, ../sass/partials/_media-queries.scss */
+  /* line 238, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--prlx-2 {
     top: 275px;
   }
-  /* line 238, ../sass/partials/_media-queries.scss */
+  /* line 242, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--cloud-1 {
     min-height: 30px;
     left: -50px;
   }
-  /* line 243, ../sass/partials/_media-queries.scss */
+  /* line 247, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--cloud-2 {
     min-height: 40px;
     right: -150px;
   }
 }
 @media only screen and (max-width: 450px) {
-  /* line 251, ../sass/partials/_media-queries.scss */
+  /* line 255, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape {
     min-height: 515px;
   }
-  /* line 254, ../sass/partials/_media-queries.scss */
+  /* line 258, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--prlx-3 {
     top: 260px;
   }
-  /* line 258, ../sass/partials/_media-queries.scss */
+  /* line 262, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--prlx-2 {
     top: 290px;
   }

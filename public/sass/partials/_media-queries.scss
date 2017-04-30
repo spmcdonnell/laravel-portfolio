@@ -99,6 +99,10 @@
 //}
 
 @media only screen and (max-width: 768px) {
+  header.site-header {
+    position: absolute;
+  }
+
   header.site-header .wrap {
     max-width: 600px;
     padding: 0 30px;
