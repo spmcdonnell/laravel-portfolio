@@ -1246,34 +1246,64 @@ XX. MEDIA QUERIES
     height: 60px;
     width: 60px;
   }
+
+  /* line 190, ../sass/partials/_media-queries.scss */
+  main.content section.home__section--cityscape {
+    font-size: 0.7em;
+  }
+  /* line 193, ../sass/partials/_media-queries.scss */
+  main.content section.home__section--cityscape h1, main.content section.home__section--cityscape h2 {
+    -webkit-text-shadow: none;
+    -moz-text-shadow: none;
+    -ms-text-shadow: none;
+    -o-text-shadow: none;
+    text-shadow: none;
+  }
+  /* line 201, ../sass/partials/_media-queries.scss */
+  main.content section.home__section--cityscape h2 {
+    top: 245px;
+  }
 }
 @media only screen and (max-width: 580px) {
-  /* line 194, ../sass/partials/_media-queries.scss */
+  /* line 210, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .scroll-content img {
     width: 85%;
   }
-  /* line 198, ../sass/partials/_media-queries.scss */
+  /* line 214, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .scroll-content img.mobile {
     display: none;
   }
 }
 @media only screen and (max-width: 550px) {
-  /* line 207, ../sass/partials/_media-queries.scss */
+  /* line 222, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape {
     min-height: 560px;
+    font-size: 0.6em;
   }
-  /* line 210, ../sass/partials/_media-queries.scss */
+  /* line 226, ../sass/partials/_media-queries.scss */
+  main.content section.home__section--cityscape h2 {
+    top: 240px;
+  }
+  /* line 230, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--prlx-3 {
     top: 240px;
   }
-  /* line 214, ../sass/partials/_media-queries.scss */
+  /* line 234, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--prlx-2 {
     top: 275px;
   }
 }
-@media only screen and (max-width: 550px) {
-  /* line 221, ../sass/partials/_media-queries.scss */
+@media only screen and (max-width: 450px) {
+  /* line 241, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape {
     min-height: 515px;
+  }
+  /* line 244, ../sass/partials/_media-queries.scss */
+  main.content section.home__section--cityscape div.skyline.skyline--prlx-3 {
+    top: 260px;
+  }
+  /* line 248, ../sass/partials/_media-queries.scss */
+  main.content section.home__section--cityscape div.skyline.skyline--prlx-2 {
+    top: 290px;
   }
 }

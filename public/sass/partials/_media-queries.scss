@@ -186,6 +186,22 @@
     height: 60px;
     width: 60px;
   }
+
+  main.content section.home__section--cityscape {
+    font-size: 0.7em;
+    
+    h1, h2 {
+      -webkit-text-shadow: none;
+      -moz-text-shadow: none;
+      -ms-text-shadow: none;
+      -o-text-shadow: none;
+      text-shadow: none;
+    }
+
+    h2 {
+      top: 245px;
+    }
+  }
 }
 
 @media only screen and (max-width: 580px) {
@@ -198,7 +214,6 @@
       img.mobile {
         display: none;
       }
-
     }
   }
 }
@@ -206,6 +221,11 @@
 @media only screen and (max-width: 550px) {
   main.content section.home__section--cityscape {
     min-height: 560px;
+    font-size: 0.6em;
+
+    h2 {
+      top: 240px;
+    }
 
     div.skyline.skyline--prlx-3 {
       top: 240px;
@@ -217,8 +237,16 @@
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 450px) {
   main.content section.home__section--cityscape {
     min-height: 515px;
+
+    div.skyline.skyline--prlx-3 {
+      top: 260px;
+    }
+
+    div.skyline.skyline--prlx-2 {
+      top: 290px;
+    }
   }
 }
