@@ -89,7 +89,7 @@ main.content section.home__section--cityscape {
   //  }
 
   div.skyline.skyline--first {
-    background: url(/images/ground-newshadow-1.png);
+    background: url(/images/ground-newshadow-1.png) no-repeat;
     background-position: 50% 100%;
     min-height: 430px;
     bottom: 0;
@@ -166,7 +166,7 @@ main.content section.home__section--cityscape {
     div.sun-rays {
       position: absolute;
       top: 120px;
-      right: 200px;
+      right: 15%;
       height: 120px;
       width: 120px;
       background: url(/images/sun-rays-newshadow.png);
@@ -189,7 +189,6 @@ main.content section.home__section--cityscape {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       border-radius: 50%;
-      //      transform: translate3d(0,0,0);
       animation: sun 2s ease-in-out infinite;
       animation-direction: alternate;
       backface-visibility: hidden;

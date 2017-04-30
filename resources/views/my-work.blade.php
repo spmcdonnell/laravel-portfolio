@@ -1,6 +1,6 @@
 @extends('layout')
 @section('pageClass', 'my-work')
-@section('tabTitle', 'My Work')
+@section('tabTitle', 'Work')
 @section('content')
 
 <section class="my-work__section my-work__section--hero">
