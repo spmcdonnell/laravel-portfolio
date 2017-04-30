@@ -24,27 +24,26 @@
 
      </div>
 </section>
-<div class="white-ridges-up"></div>
-<section class="home__section home__section--contact" id="contact">
-     <div class="inside-container">
-        @if(Session::has('success'))
-            <div class="alert-success"> {{ Session::get('success') }} </div>
-        @endif
-        <h2>Want to get in touch?</h2>
-        <form action="{{ url('/')  }}" method="POST">
-            {{ csrf_field() }}
-            <div class="form-group">
-                <label name="email">Your Email:</label>
-                <input name="email" id="email" class="form-control">
-            </div>
-            <div class="form-group">
-                <label name="message">Your Message:</label>
-                <textarea name="message" id="message" class="form-control"></textarea>
-            </div>
-            <input type="submit" value="Submit">
-        </form>
-     </div>
-</section>
-<div class="white-ridges-down"></div>
+{{--<section class="home__section home__section--contact" id="contact">--}}
+     {{--<div class="inside-container">--}}
+        {{--@if(Session::has('success'))--}}
+            {{--<div class="alert-success"> {{ Session::get('success') }} </div>--}}
+        {{--@endif--}}
+        {{--<h2>Want to get in touch?</h2>--}}
+        {{--<form action="{{ url('/')  }}" method="POST">--}}
+            {{--{{ csrf_field() }}--}}
+            {{--<div class="form-group">--}}
+                {{--<label name="email">Your Email:</label>--}}
+                {{--<input name="email" id="email" class="form-control">--}}
+            {{--</div>--}}
+            {{--<div class="form-group">--}}
+                {{--<label name="message">Your Message:</label>--}}
+                {{--<textarea name="message" id="message" class="form-control"></textarea>--}}
+            {{--</div>--}}
+            {{--<input type="submit" value="Submit">--}}
+        {{--</form>--}}
+     {{--</div>--}}
+{{--</section>--}}
+{{--<div class="white-ridges-down"></div>--}}
 <script type="text/javascript" src="/js/parallax-background.js"></script>
  @stop

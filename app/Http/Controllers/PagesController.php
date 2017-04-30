@@ -7,6 +7,8 @@ use App\Http\Requests;
 use App\Post;
 use Mail;
 use Session;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\URL;
 
 class PagesController extends Controller
 {
@@ -49,9 +51,7 @@ class PagesController extends Controller
             $emailHeader->subject('New Portfolio Contact');
         });
 
-        Session::flash('success', 'Your message has been received — I usually respond within 24 hours!');
-
-        return redirect('/#contact')->with('success', 'Your message has been received — I usually respond within 24 hours!');
+        return Redirect::to(URL::previous() . "#contact")->with('success', 'Your message has been received — I usually respond within 24 hours!');
     }
 
     public function my_work()

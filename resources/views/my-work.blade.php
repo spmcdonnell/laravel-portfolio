@@ -7,7 +7,7 @@
 
 </section>
 <section class="my-work__section my-work__section--1 my-work__section--edwrks">
-    <div class="clearfix">
+    <div class="clear-fix">
         <div class="static static1">
             <div class="desc">
                 <h2>EducationWorks</h2>
@@ -30,7 +30,7 @@
     </div>
 </section>
 <section class="my-work__section my-work__section--2 my-work__section--elevate">
-    <div class="clearfix">
+    <div class="clear-fix">
         <div class="static static2">
             <div class="desc">
                 <h2>Elevate CBD</h2>
@@ -46,7 +46,7 @@
     </div>
 </section>
 <section class="my-work__section my-work__section--3 my-work__section--homestead">
-    <div class="clearfix">
+    <div class="clear-fix">
         <div class="static static3">
             <div class="desc">
                 <h2>The Homestead Box</h2>
@@ -63,7 +63,7 @@
     </div>
 </section>
 <section class="my-work__section my-work__section--4 my-work__section--skinny">
-    <div class="clearfix">
+    <div class="clear-fix">
         <div class="static static4">
             <div class="desc">
                 <h2>Skinny Nutritional</h2>
@@ -81,7 +81,7 @@
     </div>
 </section>
 <section class="my-work__section my-work__section--5 my-work__section--concept-art">
-    <div class="clearfix">
+    <div class="clear-fix">
         <div class="static static5">
             <div class="desc">
                 <h2>Concept Art</h2>

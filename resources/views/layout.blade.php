@@ -8,14 +8,14 @@
      <title>@yield('tabTitle')</title>
 
      <!-- Fonts -->
-     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
      <link rel='shortcut icon' href="//www.redditstatic.com/favicon.ico" type="image/x-icon" />
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
      <link href="/stylesheets/custom.css" rel="stylesheet" type="text/css">
+     <link href="/stylesheets/grid12.min.css" rel="stylesheet" type="text/css">
  </head>
  <body class="@yield('pageClass')">
      <header class="site-header">
-        <div class="wrap clearfix">
+        <div class="wrap clear-fix">
             <div class="title-area">
                 <a href="/"><img src="/images/chibi-head.png" width="100"></a>
             </div>
@@ -32,8 +32,37 @@
             @yield('content')
          </main>
      </div>
+     <div class="white-ridges-up"></div>
      <footer>
-
+        <div class="wrap" id="contact">
+             <div class="inside-container">
+                 <div class="row">
+                    @if(Session::has('success'))
+                        <div class="alert-success"> {{ Session::get('success') }} </div>
+                    @endif
+                    <div class="col-sm-4">
+                        <h2>About this site:</h2>
+                        <p>This site was created using Laravel 5</p>
+                    </div>
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                        <h2>Want to get in touch?</h2>
+                        <form action="{{ url('/')  }}" method="POST">
+                            {{ csrf_field() }}
+                            <div class="form-group">
+                                <label name="email">Your Email:</label>
+                                <input name="email" id="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label name="message">Your Message:</label>
+                                <textarea name="message" id="message" class="form-control"></textarea>
+                            </div>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                 </div>
+             </div>
+        </div>
      </footer>
      <script type="text/javascript" src="/js/custom.js"></script>
  </body>
