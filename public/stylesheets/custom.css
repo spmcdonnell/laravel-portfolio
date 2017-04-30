@@ -365,16 +365,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 74, ../sass/custom.scss */
+p {
+  font-family: Lato, sans-serif;
+}
+
+/* line 78, ../sass/custom.scss */
 a {
   text-decoration: none;
 }
 
-/* line 78, ../sass/custom.scss */
+/* line 82, ../sass/custom.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 82, ../sass/custom.scss */
+/* line 86, ../sass/custom.scss */
 div.alert-success {
   color: #3c763d;
   background-color: #dff0d8;
@@ -389,27 +394,27 @@ div.alert-success {
 /*
 Full width page styles
 */
-/* line 99, ../sass/custom.scss */
+/* line 103, ../sass/custom.scss */
 body.full-width div.site-inner {
   max-width: 100%;
 }
-/* line 102, ../sass/custom.scss */
+/* line 106, ../sass/custom.scss */
 body.full-width div.site-inner article.entry {
   padding: 0;
 }
 
-/* line 108, ../sass/custom.scss */
+/* line 112, ../sass/custom.scss */
 .inside-container {
   max-width: 1200px;
   margin: 0 auto;
 }
-/* line 113, ../sass/custom.scss */
+/* line 117, ../sass/custom.scss */
 .inside-container .su-row {
   margin-bottom: 0;
   padding: 2%;
 }
 
-/* line 121, ../sass/custom.scss */
+/* line 125, ../sass/custom.scss */
 .clear-fix:after {
   content: '';
   display: block;
@@ -512,12 +517,12 @@ header.site-header.nav-up {
 /**********
 5. CONTENT
 ***********/
-/* line 148, ../sass/custom.scss */
+/* line 152, ../sass/custom.scss */
 .site-inner {
   padding-top: 0;
 }
 
-/* line 152, ../sass/custom.scss */
+/* line 156, ../sass/custom.scss */
 .entry {
   padding-bottom: 10px;
   margin-bottom: 0;
@@ -536,7 +541,10 @@ footer {
 
 /* line 8, ../sass/partials/_footer.scss */
 footer p {
-  font-weight: 100;
+  font-weight: 300;
+  color: #5d5d5d;
+  line-height: 1.8;
+  font-size: 1em;
 }
 
 /********
@@ -579,29 +587,38 @@ div.white-ridges-down {
 /* line 30, ../sass/partials/_home.scss */
 section.home__section {
   background-color: #fff;
+  color: #000;
   position: relative;
   overflow: hidden;
 }
-/* line 35, ../sass/partials/_home.scss */
+/* line 36, ../sass/partials/_home.scss */
 section.home__section .inside-container {
   z-index: 2;
   width: 100%;
   padding: 60px 0;
 }
-
 /* line 42, ../sass/partials/_home.scss */
+section.home__section p {
+  font-weight: 300;
+  color: #5d5d5d;
+  line-height: 1.8;
+  font-size: 1.2em;
+}
+
+/* line 50, ../sass/partials/_home.scss */
 section.home__section:nth-of-type(2) {
   background: #7bc4ae;
   min-height: 150px;
 }
 
-/* line 47, ../sass/partials/_home.scss */
-main.content section.home__section--cityscape {
+/* line 55, ../sass/partials/_home.scss */
+section.home__section--cityscape {
   background: linear-gradient(#61adf5, #f6fbff);
   min-height: 1100px;
+  color: #fff;
 }
-/* line 51, ../sass/partials/_home.scss */
-main.content section.home__section--cityscape h1, main.content section.home__section--cityscape h2 {
+/* line 60, ../sass/partials/_home.scss */
+section.home__section--cityscape h1, section.home__section--cityscape h2 {
   position: fixed;
   left: 0;
   right: 0;
@@ -610,20 +627,20 @@ main.content section.home__section--cityscape h1, main.content section.home__sec
   text-shadow: -1px 1px 1px #000;
   font-family: 'Populaire';
 }
-/* line 61, ../sass/partials/_home.scss */
-main.content section.home__section--cityscape h1 {
+/* line 70, ../sass/partials/_home.scss */
+section.home__section--cityscape h1 {
   margin-top: 190px;
   margin-bottom: 0;
   font-size: 5em;
 }
-/* line 67, ../sass/partials/_home.scss */
-main.content section.home__section--cityscape h2 {
+/* line 76, ../sass/partials/_home.scss */
+section.home__section--cityscape h2 {
   top: 286px;
   font-size: 2em;
   margin-top: 0;
 }
-/* line 73, ../sass/partials/_home.scss */
-main.content section.home__section--cityscape div.skyline {
+/* line 82, ../sass/partials/_home.scss */
+section.home__section--cityscape div.skyline {
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -632,35 +649,35 @@ main.content section.home__section--cityscape div.skyline {
   min-height: 1000px;
 }
 /* line 91, ../sass/partials/_home.scss */
-main.content section.home__section--cityscape div.skyline.skyline--first {
+section.home__section--cityscape div.skyline.skyline--first {
   background: url(/images/ground-newshadow-1.png) repeat-x;
   background-position: 50% 100%;
   min-height: 430px;
   bottom: 0;
 }
 /* line 98, ../sass/partials/_home.scss */
-main.content section.home__section--cityscape div.skyline.skyline--prlx-1 {
+section.home__section--cityscape div.skyline.skyline--prlx-1 {
   background: url(/images/buildings-1-newshadow.png) 50% 0 no-repeat;
   min-height: 598px;
   position: fixed;
   top: 340px;
 }
 /* line 105, ../sass/partials/_home.scss */
-main.content section.home__section--cityscape div.skyline.skyline--prlx-2 {
+section.home__section--cityscape div.skyline.skyline--prlx-2 {
   background: url(/images/buildings-2-newshadow.png) 50% 0 no-repeat;
   min-height: 600px;
   position: fixed;
   top: 245px;
 }
 /* line 112, ../sass/partials/_home.scss */
-main.content section.home__section--cityscape div.skyline.skyline--prlx-3 {
+section.home__section--cityscape div.skyline.skyline--prlx-3 {
   background: url(/images/buildings-3-newshadow-1.png) 50% 0 no-repeat;
   min-height: 765px;
   position: fixed;
   top: 130px;
 }
 /* line 119, ../sass/partials/_home.scss */
-main.content section.home__section--cityscape div.skyline.skyline--cloud-1 {
+section.home__section--cityscape div.skyline.skyline--cloud-1 {
   top: 150px;
   left: 0px;
   margin: 0;
@@ -672,7 +689,7 @@ main.content section.home__section--cityscape div.skyline.skyline--cloud-1 {
   animation: clouds-1 50s linear infinite, fade-in 4s linear;
 }
 /* line 131, ../sass/partials/_home.scss */
-main.content section.home__section--cityscape div.skyline.skyline--cloud-2 {
+section.home__section--cityscape div.skyline.skyline--cloud-2 {
   top: 300px;
   right: -495px;
   background: url(/images/cloud-2-small-newshadow.png) 50% 50% no-repeat;
@@ -685,7 +702,7 @@ main.content section.home__section--cityscape div.skyline.skyline--cloud-2 {
   -webkit-animation-fill-mode: forwards;
 }
 /* line 144, ../sass/partials/_home.scss */
-main.content section.home__section--cityscape div.skyline.skyline--balloons {
+section.home__section--cityscape div.skyline.skyline--balloons {
   top: 12%;
   left: -10%;
   background: url(/images/airplane-with-banner.png) no-repeat;
@@ -698,7 +715,7 @@ main.content section.home__section--cityscape div.skyline.skyline--balloons {
   animation-direction: alternate;
 }
 /* line 158, ../sass/partials/_home.scss */
-main.content section.home__section--cityscape div.skyline.skyline--sunbox {
+section.home__section--cityscape div.skyline.skyline--sunbox {
   top: 0;
   left: 0;
   right: 0;
@@ -707,7 +724,7 @@ main.content section.home__section--cityscape div.skyline.skyline--sunbox {
   position: fixed;
 }
 /* line 166, ../sass/partials/_home.scss */
-main.content section.home__section--cityscape div.skyline.skyline--sunbox div.sun-rays {
+section.home__section--cityscape div.skyline.skyline--sunbox div.sun-rays {
   position: absolute;
   top: 120px;
   right: 15%;
@@ -718,7 +735,7 @@ main.content section.home__section--cityscape div.skyline.skyline--sunbox div.su
   animation: sunrays 30s linear infinite;
 }
 /* line 177, ../sass/partials/_home.scss */
-main.content section.home__section--cityscape div.skyline.skyline--sunbox div.the-sun {
+section.home__section--cityscape div.skyline.skyline--sunbox div.the-sun {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -740,8 +757,33 @@ main.content section.home__section--cityscape div.skyline.skyline--sunbox div.th
 }
 
 /* line 200, ../sass/partials/_home.scss */
+main.content section.home__section--about {
+  text-align: center;
+}
+/* line 203, ../sass/partials/_home.scss */
+main.content section.home__section--about h2 {
+  font-size: 2em;
+  color: #4a6860;
+  margin: 10px 0;
+}
+/* line 209, ../sass/partials/_home.scss */
+main.content section.home__section--about div.circle {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: #4a6860;
+}
+
+/* line 218, ../sass/partials/_home.scss */
+.tight {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* line 223, ../sass/partials/_home.scss */
 section.home__section--contact {
-  color: #000;
+  color: #545454;
 }
 
 /************
@@ -942,13 +984,13 @@ body.my-work section.my-work__section--homestead a.see-more {
 /****************
 10. CONTACT FORMS
 *****************/
-/* line 183, ../sass/custom.scss */
+/* line 187, ../sass/custom.scss */
 form label {
   margin-bottom: 5px;
   font-family: 'Lato';
 }
 
-/* line 188, ../sass/custom.scss */
+/* line 192, ../sass/custom.scss */
 form input.form-control,
 form textarea {
   display: block;
@@ -967,12 +1009,12 @@ form textarea {
   width: 100%;
 }
 
-/* line 209, ../sass/custom.scss */
+/* line 213, ../sass/custom.scss */
 form textarea {
   min-height: 100px;
 }
 
-/* line 213, ../sass/custom.scss */
+/* line 217, ../sass/custom.scss */
 input[type="submit"] {
   color: #fff;
   font-family: Lato;
@@ -993,7 +1035,7 @@ input[type="submit"] {
   transition: 0.3s ease-in-out;
 }
 
-/* line 233, ../sass/custom.scss */
+/* line 237, ../sass/custom.scss */
 input[type="submit"]:hover {
   opacity: 0.8;
   cursor: pointer;

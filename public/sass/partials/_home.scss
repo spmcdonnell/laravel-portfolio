@@ -29,6 +29,7 @@ div.white-ridges-down {
 
 section.home__section {
   background-color: #fff;
+  color: #000;
   position: relative;
   overflow: hidden;
 
@@ -37,6 +38,13 @@ section.home__section {
     width: 100%;
     padding: 60px 0;
   }
+
+  p {
+    font-weight: 300;
+    color: #5d5d5d;
+    line-height: 1.8;
+    font-size: 1.2em;
+  }
 }
 
 section.home__section:nth-of-type(2) {
@@ -44,9 +52,10 @@ section.home__section:nth-of-type(2) {
   min-height: 150px;
 }
 
-main.content section.home__section--cityscape {
+section.home__section--cityscape {
   background: linear-gradient(#61adf5, #f6fbff);
   min-height: 1100px;
+  color: #fff;
 
   h1, h2 {
     position: fixed;
@@ -78,15 +87,6 @@ main.content section.home__section--cityscape {
     width: 100%;
     min-height: 1000px;
   }
-
-  //  &:before {
-  //    min-height: 1000px;
-  //    content: '';
-  //    width: 100%;
-  //    opacity: 0;
-  //    background: linear-gradient(#280035, #ffa90d);
-  //    animation: sunrise 4s linear;
-  //  }
 
   div.skyline.skyline--first {
     background: url(/images/ground-newshadow-1.png) repeat-x;
@@ -197,6 +197,29 @@ main.content section.home__section--cityscape {
   }
 }
 
+main.content section.home__section--about {
+  text-align: center;
+
+  h2 {
+    font-size: 2em;
+    color: #4a6860;
+    margin: 10px 0;
+  }
+  
+  div.circle {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #4a6860;
+  }
+}
+
+.tight {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 section.home__section--contact {
-  color: #000;
+  color: #545454;
 }

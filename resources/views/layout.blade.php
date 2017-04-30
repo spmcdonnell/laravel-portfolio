@@ -9,6 +9,7 @@
 
      <!-- Fonts -->
      <link rel='shortcut icon' href="//www.redditstatic.com/favicon.ico" type="image/x-icon" />
+     <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
      <link href="/stylesheets/custom.css" rel="stylesheet" type="text/css">
      <link href="/stylesheets/grid12.min.css" rel="stylesheet" type="text/css">
@@ -42,9 +43,16 @@
                     @endif
                     <div class="col-sm-4">
                         <h2>About this site:</h2>
-                        <p>This site was created using Laravel 5</p>
+                        <p>This site was created using Laravel 5 and has been my pet project
+                        for a number months. When deciding to overhaul my portfolio site.
+                        I wanted to keep things simple and functional, but still visually interesting.
+                        It's also served as an opportunity to improve my knowledge of Laravel.
+                        I plan to make to regular updates an improvements,
+                        and hope to add a full featured blog in the near future.</p>
                     </div>
-                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4" style="text-align: center;">
+                        <a href="mailto:mcdsean@gmail.com">mcdsean@gmail.com</a>
+                    </div>
                     <div class="col-sm-4">
                         <h2>Want to get in touch?</h2>
                         <form action="{{ url('/')  }}" method="POST">
