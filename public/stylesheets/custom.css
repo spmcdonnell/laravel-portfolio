@@ -1292,17 +1292,27 @@ XX. MEDIA QUERIES
   main.content section.home__section--cityscape div.skyline.skyline--prlx-2 {
     top: 275px;
   }
+  /* line 238, ../sass/partials/_media-queries.scss */
+  main.content section.home__section--cityscape div.skyline.skyline--cloud-1 {
+    min-height: 30px;
+    left: -50px;
+  }
+  /* line 243, ../sass/partials/_media-queries.scss */
+  main.content section.home__section--cityscape div.skyline.skyline--cloud-2 {
+    min-height: 40px;
+    right: -150px;
+  }
 }
 @media only screen and (max-width: 450px) {
-  /* line 241, ../sass/partials/_media-queries.scss */
+  /* line 251, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape {
     min-height: 515px;
   }
-  /* line 244, ../sass/partials/_media-queries.scss */
+  /* line 254, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--prlx-3 {
     top: 260px;
   }
-  /* line 248, ../sass/partials/_media-queries.scss */
+  /* line 258, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--prlx-2 {
     top: 290px;
   }
