@@ -25,10 +25,30 @@
 <section class="home__section home__section--about">
     <div class="inside-container">
         <div class="circle"></div>
-        <h2>Hi,</h2>
+        <h3>Hi</h3>
         <p class="tight">I'm a Philadelphia based web developer.
         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <hr>
+        <h2>What I can do.</h2>
+        <div class="row">
+            <div class="col-sm-6">
+                <p>*IMG*</p>
+            </div>
+            <div class="col-sm-6">
+                <h3>Some text</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Some text</h3>
+            </div>
+            <div class="col-sm-6">
+                <p>*IMG*</p>
+            </div>
+        </div>
+        <hr>
+        <h2></h2>
     </div>
 </section>
 <section class="home__section home__section--skills">

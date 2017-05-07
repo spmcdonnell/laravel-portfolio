@@ -375,11 +375,19 @@ a {
 }
 
 /* line 82, ../sass/custom.scss */
+hr {
+  border: none;
+  height: 17px;
+  background: url("/images/dotted-hr.png") 50% 50% no-repeat;
+  margin: 70px 0;
+}
+
+/* line 89, ../sass/custom.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 86, ../sass/custom.scss */
+/* line 93, ../sass/custom.scss */
 div.alert-success {
   color: #3c763d;
   background-color: #dff0d8;
@@ -394,27 +402,27 @@ div.alert-success {
 /*
 Full width page styles
 */
-/* line 103, ../sass/custom.scss */
+/* line 110, ../sass/custom.scss */
 body.full-width div.site-inner {
   max-width: 100%;
 }
-/* line 106, ../sass/custom.scss */
+/* line 113, ../sass/custom.scss */
 body.full-width div.site-inner article.entry {
   padding: 0;
 }
 
-/* line 112, ../sass/custom.scss */
+/* line 119, ../sass/custom.scss */
 .inside-container {
   max-width: 1200px;
   margin: 0 auto;
 }
-/* line 117, ../sass/custom.scss */
+/* line 124, ../sass/custom.scss */
 .inside-container .su-row {
   margin-bottom: 0;
   padding: 2%;
 }
 
-/* line 125, ../sass/custom.scss */
+/* line 132, ../sass/custom.scss */
 .clear-fix:after {
   content: '';
   display: block;
@@ -517,12 +525,12 @@ header.site-header.nav-up {
 /**********
 5. CONTENT
 ***********/
-/* line 152, ../sass/custom.scss */
+/* line 159, ../sass/custom.scss */
 .site-inner {
   padding-top: 0;
 }
 
-/* line 156, ../sass/custom.scss */
+/* line 163, ../sass/custom.scss */
 .entry {
   padding-bottom: 10px;
   margin-bottom: 0;
@@ -762,11 +770,16 @@ main.content section.home__section--about {
 }
 /* line 203, ../sass/partials/_home.scss */
 main.content section.home__section--about h2 {
-  font-size: 2em;
+  font-size: 3em;
   color: #4a6860;
+}
+/* line 208, ../sass/partials/_home.scss */
+main.content section.home__section--about h3 {
+  font-size: 1.8em;
+  color: #6f9c92;
   margin: 10px 0;
 }
-/* line 209, ../sass/partials/_home.scss */
+/* line 214, ../sass/partials/_home.scss */
 main.content section.home__section--about div.circle {
   width: 140px;
   height: 140px;
@@ -775,13 +788,13 @@ main.content section.home__section--about div.circle {
   background-color: #4a6860;
 }
 
-/* line 218, ../sass/partials/_home.scss */
+/* line 223, ../sass/partials/_home.scss */
 .tight {
   max-width: 500px;
   margin: 0 auto;
 }
 
-/* line 223, ../sass/partials/_home.scss */
+/* line 228, ../sass/partials/_home.scss */
 section.home__section--contact {
   color: #545454;
 }
@@ -984,13 +997,13 @@ body.my-work section.my-work__section--homestead a.see-more {
 /****************
 10. CONTACT FORMS
 *****************/
-/* line 187, ../sass/custom.scss */
+/* line 194, ../sass/custom.scss */
 form label {
   margin-bottom: 5px;
   font-family: 'Lato';
 }
 
-/* line 192, ../sass/custom.scss */
+/* line 199, ../sass/custom.scss */
 form input.form-control,
 form textarea {
   display: block;
@@ -1009,12 +1022,12 @@ form textarea {
   width: 100%;
 }
 
-/* line 213, ../sass/custom.scss */
+/* line 220, ../sass/custom.scss */
 form textarea {
   min-height: 100px;
 }
 
-/* line 217, ../sass/custom.scss */
+/* line 224, ../sass/custom.scss */
 input[type="submit"] {
   color: #fff;
   font-family: Lato;
@@ -1035,7 +1048,7 @@ input[type="submit"] {
   transition: 0.3s ease-in-out;
 }
 
-/* line 237, ../sass/custom.scss */
+/* line 244, ../sass/custom.scss */
 input[type="submit"]:hover {
   opacity: 0.8;
   cursor: pointer;

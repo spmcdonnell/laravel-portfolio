@@ -79,6 +79,13 @@ a {
   text-decoration: none;
 }
 
+hr {
+  border: none;
+  height: 17px;
+  background: url("/images/dotted-hr.png") 50% 50% no-repeat;
+  margin: 70px 0;
+}
+
 ul {
   list-style-type: none;
 }
