@@ -198,11 +198,11 @@ section.home__section--cityscape {
 }
 
 main.content section.home__section--about {
-  text-align: center;
 
   h2{
     font-size: 3em;
     color: #4a6860;
+    text-align: center;
   }
 
   h3 {
@@ -218,11 +218,24 @@ main.content section.home__section--about {
     border-radius: 50%;
     background-color: #4a6860;
   }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.tight,
+.tighter {
+  margin: 0 auto;
 }
 
 .tight {
-  max-width: 500px;
-  margin: 0 auto;
+  max-width: 960px;
+}
+
+.tighter {
+  max-width: 455px;
 }
 
 section.home__section--contact {

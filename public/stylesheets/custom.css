@@ -542,15 +542,15 @@ header.site-header.nav-up {
 /* line 1, ../sass/partials/_footer.scss */
 footer {
   position: relative;
-  background-color: #fff;
-  color: #000;
+  background-color: #7bc4ae;
+  color: #fff;
   padding: 30px 0 40px;
 }
 
 /* line 8, ../sass/partials/_footer.scss */
 footer p {
   font-weight: 300;
-  color: #5d5d5d;
+  color: #fff;
   line-height: 1.8;
   font-size: 1em;
 }
@@ -764,14 +764,11 @@ section.home__section--cityscape div.skyline.skyline--sunbox div.the-sun {
   perspective: 1000;
 }
 
-/* line 200, ../sass/partials/_home.scss */
-main.content section.home__section--about {
-  text-align: center;
-}
-/* line 203, ../sass/partials/_home.scss */
+/* line 202, ../sass/partials/_home.scss */
 main.content section.home__section--about h2 {
   font-size: 3em;
   color: #4a6860;
+  text-align: center;
 }
 /* line 208, ../sass/partials/_home.scss */
 main.content section.home__section--about h3 {
@@ -787,14 +784,29 @@ main.content section.home__section--about div.circle {
   border-radius: 50%;
   background-color: #4a6860;
 }
+/* line 222, ../sass/partials/_home.scss */
+main.content section.home__section--about img {
+  width: 100%;
+  height: auto;
+}
 
-/* line 223, ../sass/partials/_home.scss */
-.tight {
-  max-width: 500px;
+/* line 229, ../sass/partials/_home.scss */
+.tight,
+.tighter {
   margin: 0 auto;
 }
 
-/* line 228, ../sass/partials/_home.scss */
+/* line 233, ../sass/partials/_home.scss */
+.tight {
+  max-width: 960px;
+}
+
+/* line 237, ../sass/partials/_home.scss */
+.tighter {
+  max-width: 455px;
+}
+
+/* line 241, ../sass/partials/_home.scss */
 section.home__section--contact {
   color: #545454;
 }
@@ -1040,7 +1052,7 @@ input[type="submit"] {
   margin: 20px 0 0;
   text-align: center;
   font-size: 1em;
-  background: #7bc4ae;
+  background: #204e44;
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: 0.3s ease-in-out;
   -ms-transition: 0.3s ease-in-out;

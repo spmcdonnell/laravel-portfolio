@@ -24,27 +24,42 @@
 </section>
 <section class="home__section home__section--about">
     <div class="inside-container">
-        <div class="circle"></div>
-        <h3>Hi</h3>
-        <p class="tight">I'm a Philadelphia based web developer.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <hr>
-        <h2>What I can do.</h2>
         <div class="row">
-            <div class="col-sm-6">
-                <p>*IMG*</p>
-            </div>
-            <div class="col-sm-6">
-                <h3>Some text</h3>
+            <div class="col-sm-12">
+                <div class="circle"></div>
+                <h3 style="text-align: center; margin: 28px 0 16px;">Hi</h3>
+                <p class="tighter" style="text-align: center;">I'm a Philadelphia based developer. I love
+                creating for the web across devices, and am driven by an attention to detail, a love of problem
+                solving, and a desire to continually expand my skill set.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <h3>Some text</h3>
+        <hr>
+        <h2>What I can do.</h2>
+        <div class="row tight">
+            <div class="col-sm-4 col-sm-offset-1">
+                <p><img src="/images/black-square.png" width="300" height="300"></p>
             </div>
             <div class="col-sm-6">
-                <p>*IMG*</p>
+                <h3>How I work.</h3>
+                <p>I have experience working on solo
+                projects from conception to deployment as well as working as part of a team of
+                talented developers and designers. I'm a Philadelphia based web developer. I'm a
+                Philadelphia based web developer. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
+            </div>
+        </div>
+        <div class="row tight">
+            <div class="col-sm-4 col-sm-push-7">
+                <p><img src="/images/black-square.png" width="300" height="300"></p>
+            </div>
+            <div class="col-sm-6 col-sm-pull-3">
+                <h3>What I use.</h3>
+                <p>I'm a Philadelphia based web developer. I've worked with popular CMS platforms
+                like Magento and Drupal, and have extensive Wordpress experience. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. I'm a Philadelphia based web developer. I'm a
+                Philadelphia based web developer. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
             </div>
         </div>
         <hr>

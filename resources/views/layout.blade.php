@@ -33,7 +33,6 @@
             @yield('content')
          </main>
      </div>
-     <div class="white-ridges-up"></div>
      <footer>
         <div class="wrap" id="contact">
              <div class="inside-container">
