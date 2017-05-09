@@ -1,6 +1,7 @@
 /**
  * Created by seanmcdonnell on 3/14/17.
  */
+
 if($(window).width() > 768) {
     var $sec1 = $('.my-work__section--1'),
         $sec2 = $('.my-work__section--2'),

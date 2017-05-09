@@ -28,9 +28,9 @@
             <div class="col-sm-12">
                 <div class="circle"></div>
                 <h3 style="text-align: center; margin: 28px 0 16px;">Hi</h3>
-                <p class="tighter" style="text-align: center;">I'm a Philadelphia based developer. I love
-                creating for the web across devices, and am driven by an attention to detail, a love of problem
-                solving, and a desire to continually expand my skill set.</p>
+                <p class="tighter" style="text-align: center;">I'm a Philadelphia based developer who loves
+                creating for the web across devices. I'm driven by a love of problem solving, an attention to detail,
+                and a desire to continually improve my skills.</p>
             </div>
         </div>
         <hr>
@@ -40,12 +40,11 @@
                 <p><img src="/images/black-square.png" width="300" height="300"></p>
             </div>
             <div class="col-sm-6">
-                <h3>How I work.</h3>
-                <p>I have experience working on solo
-                projects from conception to deployment as well as working as part of a team of
-                talented developers and designers. I'm a Philadelphia based web developer. I'm a
-                Philadelphia based web developer. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
+                <h3>How I can help.</h3>
+                <p>I have experience working on solo projects from conception to deployment as well as part of a team of
+                talented developers and designers. I keep apprised of the latest trends and understand
+                the importance of good design in shaping user browsing habits. When not hunkered over my computer, I also enjoy
+                working with clients to help them fully utilize their site's capabilities.</p>
             </div>
         </div>
         <div class="row tight">
@@ -53,13 +52,12 @@
                 <p><img src="/images/black-square.png" width="300" height="300"></p>
             </div>
             <div class="col-sm-6 col-sm-pull-3">
-                <h3>What I use.</h3>
-                <p>I'm a Philadelphia based web developer. I've worked with popular CMS platforms
-                like Magento and Drupal, and have extensive Wordpress experience. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                et dolore magna aliqua. I'm a Philadelphia based web developer. I'm a
-                Philadelphia based web developer. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
+                <h3>My tool belt.</h3>
+                <p>I use on HTML, CSS (SASS), JavaScript, and jQuery on the front end, and PHP (including Laravel) and MySQL
+                for the back. Tools like Git, Bootstrap, Gulp, Compass, and Composer help me work efficiently.
+                I've worked with popular CMS/e-commerce platforms like Magento and Drupal, and have
+                extensive WordPress experience. On the design side I'm joined at the hip with Adobe Photoshop, but also
+                use Illustrator and InDesign. For the future I have my sights set on Node.js and React.</p>
             </div>
         </div>
         <hr>
