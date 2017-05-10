@@ -52,7 +52,7 @@
                 <p><img src="/images/black-square.png" width="300" height="300"></p>
             </div>
             <div class="col-sm-6 col-sm-pull-3">
-                <h3>Use right tool for the job.</h3>
+                <h3>Use the right tool for the job.</h3>
                 <p>I use on HTML, CSS (SASS), plain JS, and jQuery on the front end, and PHP (including Laravel) and MySQL
                 for the back. Tools like GitHub, Bootstrap, and Gulp help keep me efficient.
                 I work with popular CMS and e-commerce platforms like Magento and Drupal, and have
