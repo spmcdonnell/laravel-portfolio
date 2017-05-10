@@ -556,6 +556,11 @@ footer a {
   font-size: 1em;
 }
 
+/* line 16, ../sass/partials/_footer.scss */
+footer a {
+  font-weight: 400;
+}
+
 /********
 7. HOMEPAGE
 *********/
@@ -779,17 +784,18 @@ main.content section.home__section--about h3 {
   margin: 10px 0;
 }
 /* line 215, ../sass/partials/_home.scss */
-main.content section.home__section--about div.circle {
+main.content section.home__section--about img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 221, ../sass/partials/_home.scss */
+div.circle {
   width: 140px;
   height: 140px;
   margin: 0 auto;
   border-radius: 50%;
   background-color: #4a6860;
-}
-/* line 223, ../sass/partials/_home.scss */
-main.content section.home__section--about img {
-  width: 100%;
-  height: auto;
 }
 
 /* line 230, ../sass/partials/_home.scss */
@@ -809,6 +815,18 @@ main.content section.home__section--about img {
 }
 
 /* line 242, ../sass/partials/_home.scss */
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* line 253, ../sass/partials/_home.scss */
 section.home__section--contact {
   color: #545454;
 }

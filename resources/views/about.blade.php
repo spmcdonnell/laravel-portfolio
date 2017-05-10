@@ -63,18 +63,16 @@
         <hr>
         <div class="row">
             <div class="col-sm-12">
-                <h2>Have a project in mind?<br>I can help.</h2>
-                <h3 style="text-align: center;">I'm currently available for hire and freelance opportunities.</h3>
+                <h2>I can help.</h2>
+                <h3 style="text-align: center; margin-bottom: 30px;">I'm available for hire and freelance opportunities.</h3>
+                <p class="tighter" style="text-align: center;">If you have a project in mind that you think I may be able to help you with, or if you'd like
+                to get in touch for any other reason, let's talk!</p>
             </div>
         </div>
         <h2></h2>
     </div>
 </section>
-<section class="home__section home__section--skills">
-     <div class="inside-container">
 
-     </div>
-</section>
 {{--<div class="white-ridges-down"></div>--}}
 <script type="text/javascript" src="/js/parallax-background.js"></script>
  @stop
