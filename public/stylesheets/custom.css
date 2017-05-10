@@ -547,8 +547,9 @@ footer {
   padding: 30px 0 40px;
 }
 
-/* line 8, ../sass/partials/_footer.scss */
-footer p {
+/* line 9, ../sass/partials/_footer.scss */
+footer p,
+footer a {
   font-weight: 300;
   color: #fff;
   line-height: 1.8;
@@ -769,14 +770,15 @@ main.content section.home__section--about h2 {
   font-size: 3em;
   color: #4a6860;
   text-align: center;
+  margin-top: 0;
 }
-/* line 208, ../sass/partials/_home.scss */
+/* line 209, ../sass/partials/_home.scss */
 main.content section.home__section--about h3 {
   font-size: 1.8em;
   color: #6f9c92;
   margin: 10px 0;
 }
-/* line 214, ../sass/partials/_home.scss */
+/* line 215, ../sass/partials/_home.scss */
 main.content section.home__section--about div.circle {
   width: 140px;
   height: 140px;
@@ -784,29 +786,29 @@ main.content section.home__section--about div.circle {
   border-radius: 50%;
   background-color: #4a6860;
 }
-/* line 222, ../sass/partials/_home.scss */
+/* line 223, ../sass/partials/_home.scss */
 main.content section.home__section--about img {
   width: 100%;
   height: auto;
 }
 
-/* line 229, ../sass/partials/_home.scss */
+/* line 230, ../sass/partials/_home.scss */
 .tight,
 .tighter {
   margin: 0 auto;
 }
 
-/* line 233, ../sass/partials/_home.scss */
+/* line 234, ../sass/partials/_home.scss */
 .tight {
   max-width: 960px;
 }
 
-/* line 237, ../sass/partials/_home.scss */
+/* line 238, ../sass/partials/_home.scss */
 .tighter {
   max-width: 455px;
 }
 
-/* line 241, ../sass/partials/_home.scss */
+/* line 242, ../sass/partials/_home.scss */
 section.home__section--contact {
   color: #545454;
 }

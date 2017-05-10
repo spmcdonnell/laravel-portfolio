@@ -40,7 +40,7 @@
                 <p><img src="/images/black-square.png" width="300" height="300"></p>
             </div>
             <div class="col-sm-6">
-                <h3>How I can help.</h3>
+                <h3>Understand your needs.</h3>
                 <p>I have experience working on solo projects from conception to deployment as well as part of a team of
                 talented developers and designers. I keep apprised of the latest trends and understand
                 the importance of good design in shaping user browsing habits. When not hunkered over my computer, I also enjoy
@@ -52,15 +52,21 @@
                 <p><img src="/images/black-square.png" width="300" height="300"></p>
             </div>
             <div class="col-sm-6 col-sm-pull-3">
-                <h3>My tool belt.</h3>
-                <p>I use on HTML, CSS (SASS), JavaScript, and jQuery on the front end, and PHP (including Laravel) and MySQL
-                for the back. Tools like Git, Bootstrap, Gulp, Compass, and Composer help me work efficiently.
-                I've worked with popular CMS/e-commerce platforms like Magento and Drupal, and have
+                <h3>Use right tool for the job.</h3>
+                <p>I use on HTML, CSS (SASS), plain JS, and jQuery on the front end, and PHP (including Laravel) and MySQL
+                for the back. Tools like GitHub, Bootstrap, and Gulp help keep me efficient.
+                I work with popular CMS and e-commerce platforms like Magento and Drupal, and have
                 extensive WordPress experience. On the design side I'm joined at the hip with Adobe Photoshop, but also
-                use Illustrator and InDesign. For the future I have my sights set on Node.js and React.</p>
+                use Illustrator and InDesign.</p>
             </div>
         </div>
         <hr>
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Have a project in mind?<br>I can help.</h2>
+                <h3 style="text-align: center;">I'm currently available for hire and freelance opportunities.</h3>
+            </div>
+        </div>
         <h2></h2>
     </div>
 </section>
