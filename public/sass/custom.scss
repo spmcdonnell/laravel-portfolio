@@ -90,6 +90,15 @@ ul {
   list-style-type: none;
 }
 
+div#temp {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #badec8;
+  margin-top: 10px;
+  border: 1px solid #91ad9c;
+}
+
 div.alert-success {
   color: #3c763d;
   background-color: #dff0d8;

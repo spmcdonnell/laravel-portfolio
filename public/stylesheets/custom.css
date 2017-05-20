@@ -388,6 +388,16 @@ ul {
 }
 
 /* line 93, ../sass/custom.scss */
+div#temp {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #badec8;
+  margin-top: 10px;
+  border: 1px solid #91ad9c;
+}
+
+/* line 102, ../sass/custom.scss */
 div.alert-success {
   color: #3c763d;
   background-color: #dff0d8;
@@ -402,27 +412,27 @@ div.alert-success {
 /*
 Full width page styles
 */
-/* line 110, ../sass/custom.scss */
+/* line 119, ../sass/custom.scss */
 body.full-width div.site-inner {
   max-width: 100%;
 }
-/* line 113, ../sass/custom.scss */
+/* line 122, ../sass/custom.scss */
 body.full-width div.site-inner article.entry {
   padding: 0;
 }
 
-/* line 119, ../sass/custom.scss */
+/* line 128, ../sass/custom.scss */
 .inside-container {
   max-width: 1200px;
   margin: 0 auto;
 }
-/* line 124, ../sass/custom.scss */
+/* line 133, ../sass/custom.scss */
 .inside-container .su-row {
   margin-bottom: 0;
   padding: 2%;
 }
 
-/* line 132, ../sass/custom.scss */
+/* line 141, ../sass/custom.scss */
 .clear-fix:after {
   content: '';
   display: block;
@@ -525,12 +535,12 @@ header.site-header.nav-up {
 /**********
 5. CONTENT
 ***********/
-/* line 159, ../sass/custom.scss */
+/* line 168, ../sass/custom.scss */
 .site-inner {
   padding-top: 0;
 }
 
-/* line 163, ../sass/custom.scss */
+/* line 172, ../sass/custom.scss */
 .entry {
   padding-bottom: 10px;
   margin-bottom: 0;
@@ -1029,13 +1039,13 @@ body.my-work section.my-work__section--homestead a.see-more {
 /****************
 10. CONTACT FORMS
 *****************/
-/* line 194, ../sass/custom.scss */
+/* line 203, ../sass/custom.scss */
 form label {
   margin-bottom: 5px;
   font-family: 'Lato';
 }
 
-/* line 199, ../sass/custom.scss */
+/* line 208, ../sass/custom.scss */
 form input.form-control,
 form textarea {
   display: block;
@@ -1054,12 +1064,12 @@ form textarea {
   width: 100%;
 }
 
-/* line 220, ../sass/custom.scss */
+/* line 229, ../sass/custom.scss */
 form textarea {
   min-height: 100px;
 }
 
-/* line 224, ../sass/custom.scss */
+/* line 233, ../sass/custom.scss */
 input[type="submit"] {
   color: #fff;
   font-family: Lato;
@@ -1080,7 +1090,7 @@ input[type="submit"] {
   transition: 0.3s ease-in-out;
 }
 
-/* line 244, ../sass/custom.scss */
+/* line 253, ../sass/custom.scss */
 input[type="submit"]:hover {
   opacity: 0.8;
   cursor: pointer;

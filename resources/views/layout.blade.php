@@ -18,7 +18,7 @@
      <header class="site-header">
         <div class="wrap clear-fix">
             <div class="title-area">
-                <a href="/"><img src="/images/chibi-head.png" width="100"></a>
+                <a href="/"><div id="temp"></div></a>
             </div>
             <div class="primary-nav">
                 <ul>
