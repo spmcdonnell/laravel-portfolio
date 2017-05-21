@@ -38,7 +38,7 @@
                  <p>This website marked the successful entry of Elevate into the fast growing vape market
                   and is complimented by their heavy social media presence and wholesale outreach program.</p>
                 </p>
-                <a class="see-more" href="#">See More</a>
+                <a class="see-more" href="#">Take a Look</a>
             </div>
         </div>
         <div class="scroll-content">
