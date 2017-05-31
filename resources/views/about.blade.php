@@ -26,7 +26,7 @@
     <div class="inside-container">
         <div class="row">
             <div class="col-sm-12">
-                <div class="circle"></div>
+                <div class="circle"><img src="/images/sean-avatar.png" style="width: 90px; margin-top: 2px;"></div>
                 <h3 style="text-align: center; margin: 28px 0 16px;">Hi</h3>
                 <p class="tighter" style="text-align: center;">I'm a Philadelphia based developer who loves
                 creating for the web across devices. I'm driven by a love of problem solving, an attention to detail,

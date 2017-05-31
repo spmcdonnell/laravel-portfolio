@@ -90,15 +90,6 @@ ul {
   list-style-type: none;
 }
 
-div#temp {
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  background-color: #badec8;
-  margin-top: 10px;
-  border: 1px solid #91ad9c;
-}
-
 div.alert-success {
   color: #3c763d;
   background-color: #dff0d8;
@@ -242,7 +233,7 @@ input[type="submit"] {
   margin: 20px 0 0;
   text-align: center;
   font-size: 1em;
-  background: #204e44;
+  background: #4a6860;
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: 0.3s ease-in-out;
   -ms-transition: 0.3s ease-in-out;

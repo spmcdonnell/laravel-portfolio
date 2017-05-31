@@ -13,6 +13,21 @@ header.site-header {
   -o-transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
 
+  div#temp {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-top: 10px;
+    text-align: center;
+    overflow: hidden;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    -ms-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+
   .wrap {
     max-width: 1000px;
     margin: 0 auto;
@@ -72,6 +87,10 @@ header.site-header.nav-down:not(.top-of-page) {
         text-shadow: none;
       }
     }
+  }
+
+  div#temp {
+    background-color: #BADEC8;
   }
 }
 
