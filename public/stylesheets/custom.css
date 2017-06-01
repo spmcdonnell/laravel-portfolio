@@ -862,7 +862,7 @@ section.home__section--contact {
 body.my-work {
   color: #fff;
   padding-top: 111px;
-  background: #e44d52;
+  background: #A5D3D1;
 }
 /* line 6, ../sass/partials/_my-work.scss */
 body.my-work .site-inner {
@@ -1003,8 +1003,8 @@ body.my-work section.my-work__section .bottom-zero {
 }
 /* line 152, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--hero {
-  min-height: 600px;
-  background: #e44d52;
+  min-height: 620px;
+  background: url(/images/my-work-hero.jpg) 50% 100% no-repeat;
 }
 /* line 157, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--edwrks {

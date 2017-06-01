@@ -1,7 +1,7 @@
 body.my-work {
   color: #fff;
   padding-top: 111px;
-  background: $mantis-red;
+  background: #A5D3D1;
 
   .site-inner {
     min-height: 0;
@@ -150,8 +150,8 @@ body.my-work {
   }
 
   section.my-work__section--hero {
-    min-height: 600px;
-    background: $mantis-red;
+    min-height: 620px;
+    background: url(/images/my-work-hero.jpg) 50% 100% no-repeat;
   }
 
   section.my-work__section--edwrks {
