@@ -177,6 +177,14 @@
 }
 
 @media only screen and (max-width: 600px) {
+  body.my-work section.my-work__section h1 {
+    -webkit-text-shadow: none;
+    -moz-text-shadow: none;
+    -ms-text-shadow: none;
+    -o-text-shadow: none;
+    text-shadow: none;
+  }
+
   header.site-header .wrap {
     max-width: 500px;
   }

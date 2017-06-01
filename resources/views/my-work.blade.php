@@ -5,6 +5,7 @@
 
 <section class="my-work__section my-work__section--hero">
 <h1>Work</h1>
+<p style="text-align: center; margin-bottom: 0;"><img src="/images/my-work-hero.jpg"></p>
 </section>
 <section class="my-work__section my-work__section--1 my-work__section--edwrks">
     <div class="clear-fix">

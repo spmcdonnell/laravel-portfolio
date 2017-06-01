@@ -956,15 +956,15 @@ body.my-work section.my-work__section p {
 /* line 105, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section h1 {
   margin-top: 30px;
-  position: absolute;
   left: 0;
   right: 0;
+  margin-bottom: 0;
   font-size: 4em;
   text-align: center;
   text-shadow: -1px 1px 1px #000;
   font-family: 'Populaire';
 }
-/* line 116, ../sass/partials/_my-work.scss */
+/* line 117, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section h2 {
   text-align: center;
   color: #fff;
@@ -972,7 +972,7 @@ body.my-work section.my-work__section h2 {
   font-size: 2.1em;
   margin-bottom: 0;
 }
-/* line 124, ../sass/partials/_my-work.scss */
+/* line 125, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section h3 {
   margin-top: 0;
   font-family: Lato;
@@ -980,7 +980,7 @@ body.my-work section.my-work__section h3 {
   font-size: 1.2em;
   margin-bottom: 45px;
 }
-/* line 132, ../sass/partials/_my-work.scss */
+/* line 133, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section a.see-more {
   color: #fff;
   font-family: Lato;
@@ -992,7 +992,7 @@ body.my-work section.my-work__section a.see-more {
   width: 201px;
   margin: 45px auto 0;
 }
-/* line 144, ../sass/partials/_my-work.scss */
+/* line 145, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .placeholder-img {
   width: 600px;
   height: 400px;
@@ -1002,59 +1002,67 @@ body.my-work section.my-work__section .placeholder-img {
   -moz-box-shadow: 0px 4px 17px 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 4px 17px 5px rgba(0, 0, 0, 0.3);
 }
-/* line 152, ../sass/partials/_my-work.scss */
+/* line 153, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .fixed {
   position: fixed !important;
 }
-/* line 156, ../sass/partials/_my-work.scss */
+/* line 157, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .bottom-zero {
   bottom: 0 !important;
   top: initial !important;
   position: absolute !important;
 }
-/* line 163, ../sass/partials/_my-work.scss */
+/* line 164, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--hero {
-  min-height: 620px;
-  background: url(/images/my-work-hero.jpg) 50% 100% no-repeat;
+  min-height: 0;
 }
-/* line 168, ../sass/partials/_my-work.scss */
+/* line 167, ../sass/partials/_my-work.scss */
+body.my-work section.my-work__section--hero img {
+  width: 100%;
+  max-width: 1150px;
+  height: auto;
+  position: relative;
+  bottom: -10px;
+  padding: 0 20px;
+}
+/* line 177, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--edwrks {
   background: #616965;
   padding: 0;
 }
-/* line 172, ../sass/partials/_my-work.scss */
+/* line 181, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--edwrks a.see-more {
   background-color: #ffc501;
 }
-/* line 177, ../sass/partials/_my-work.scss */
+/* line 186, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--elevate {
   background: #006241;
 }
-/* line 180, ../sass/partials/_my-work.scss */
+/* line 189, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--elevate a.see-more {
   background-color: #00aeef;
 }
-/* line 185, ../sass/partials/_my-work.scss */
+/* line 194, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--mantis {
   background: #e44d52;
 }
-/* line 189, ../sass/partials/_my-work.scss */
+/* line 198, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--skinny {
   background: #3ea430;
 }
-/* line 192, ../sass/partials/_my-work.scss */
+/* line 201, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--skinny a.see-more {
   background-color: #55565a;
 }
-/* line 197, ../sass/partials/_my-work.scss */
+/* line 206, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--concept-art {
   background: #e44d52;
 }
-/* line 201, ../sass/partials/_my-work.scss */
+/* line 210, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--homestead {
   background: #669999;
 }
-/* line 204, ../sass/partials/_my-work.scss */
+/* line 213, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--homestead a.see-more {
   background-color: #ca8200;
 }
@@ -1294,27 +1302,36 @@ XX. MEDIA QUERIES
 }
 @media only screen and (max-width: 600px) {
   /* line 180, ../sass/partials/_media-queries.scss */
+  body.my-work section.my-work__section h1 {
+    -webkit-text-shadow: none;
+    -moz-text-shadow: none;
+    -ms-text-shadow: none;
+    -o-text-shadow: none;
+    text-shadow: none;
+  }
+
+  /* line 188, ../sass/partials/_media-queries.scss */
   header.site-header .wrap {
     max-width: 500px;
   }
 
-  /* line 184, ../sass/partials/_media-queries.scss */
+  /* line 192, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--sunbox div.the-sun {
     height: 50px;
     width: 50px;
   }
 
-  /* line 189, ../sass/partials/_media-queries.scss */
+  /* line 197, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--sunbox div.sun-rays {
     height: 60px;
     width: 60px;
   }
 
-  /* line 194, ../sass/partials/_media-queries.scss */
+  /* line 202, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape {
     font-size: 0.7em;
   }
-  /* line 197, ../sass/partials/_media-queries.scss */
+  /* line 205, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape h1, main.content section.home__section--cityscape h2 {
     -webkit-text-shadow: none;
     -moz-text-shadow: none;
@@ -1322,60 +1339,60 @@ XX. MEDIA QUERIES
     -o-text-shadow: none;
     text-shadow: none;
   }
-  /* line 205, ../sass/partials/_media-queries.scss */
+  /* line 213, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape h2 {
     top: 245px;
   }
 }
 @media only screen and (max-width: 580px) {
-  /* line 214, ../sass/partials/_media-queries.scss */
+  /* line 222, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .scroll-content img {
     width: 85%;
   }
-  /* line 218, ../sass/partials/_media-queries.scss */
+  /* line 226, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .scroll-content img.mobile {
     display: none;
   }
 }
 @media only screen and (max-width: 550px) {
-  /* line 226, ../sass/partials/_media-queries.scss */
+  /* line 234, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape {
     min-height: 560px;
     font-size: 0.6em;
   }
-  /* line 230, ../sass/partials/_media-queries.scss */
+  /* line 238, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape h2 {
     top: 240px;
   }
-  /* line 234, ../sass/partials/_media-queries.scss */
+  /* line 242, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--prlx-3 {
     top: 240px;
   }
-  /* line 238, ../sass/partials/_media-queries.scss */
+  /* line 246, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--prlx-2 {
     top: 275px;
   }
-  /* line 242, ../sass/partials/_media-queries.scss */
+  /* line 250, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--cloud-1 {
     min-height: 30px;
     left: -50px;
   }
-  /* line 247, ../sass/partials/_media-queries.scss */
+  /* line 255, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--cloud-2 {
     min-height: 40px;
     right: -150px;
   }
 }
 @media only screen and (max-width: 450px) {
-  /* line 255, ../sass/partials/_media-queries.scss */
+  /* line 263, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape {
     min-height: 515px;
   }
-  /* line 258, ../sass/partials/_media-queries.scss */
+  /* line 266, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--prlx-3 {
     top: 260px;
   }
-  /* line 262, ../sass/partials/_media-queries.scss */
+  /* line 270, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--prlx-2 {
     top: 290px;
   }
