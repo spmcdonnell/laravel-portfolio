@@ -954,6 +954,17 @@ body.my-work section.my-work__section p {
   font-weight: 300;
 }
 /* line 105, ../sass/partials/_my-work.scss */
+body.my-work section.my-work__section h1 {
+  margin-top: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 4em;
+  text-align: center;
+  text-shadow: -1px 1px 1px #000;
+  font-family: 'Populaire';
+}
+/* line 116, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section h2 {
   text-align: center;
   color: #fff;
@@ -961,7 +972,7 @@ body.my-work section.my-work__section h2 {
   font-size: 2.1em;
   margin-bottom: 0;
 }
-/* line 113, ../sass/partials/_my-work.scss */
+/* line 124, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section h3 {
   margin-top: 0;
   font-family: Lato;
@@ -969,7 +980,7 @@ body.my-work section.my-work__section h3 {
   font-size: 1.2em;
   margin-bottom: 45px;
 }
-/* line 121, ../sass/partials/_my-work.scss */
+/* line 132, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section a.see-more {
   color: #fff;
   font-family: Lato;
@@ -981,7 +992,7 @@ body.my-work section.my-work__section a.see-more {
   width: 201px;
   margin: 45px auto 0;
 }
-/* line 133, ../sass/partials/_my-work.scss */
+/* line 144, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .placeholder-img {
   width: 600px;
   height: 400px;
@@ -991,59 +1002,59 @@ body.my-work section.my-work__section .placeholder-img {
   -moz-box-shadow: 0px 4px 17px 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 4px 17px 5px rgba(0, 0, 0, 0.3);
 }
-/* line 141, ../sass/partials/_my-work.scss */
+/* line 152, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .fixed {
   position: fixed !important;
 }
-/* line 145, ../sass/partials/_my-work.scss */
+/* line 156, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section .bottom-zero {
   bottom: 0 !important;
   top: initial !important;
   position: absolute !important;
 }
-/* line 152, ../sass/partials/_my-work.scss */
+/* line 163, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--hero {
   min-height: 620px;
   background: url(/images/my-work-hero.jpg) 50% 100% no-repeat;
 }
-/* line 157, ../sass/partials/_my-work.scss */
+/* line 168, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--edwrks {
   background: #616965;
   padding: 0;
 }
-/* line 161, ../sass/partials/_my-work.scss */
+/* line 172, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--edwrks a.see-more {
   background-color: #ffc501;
 }
-/* line 166, ../sass/partials/_my-work.scss */
+/* line 177, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--elevate {
   background: #006241;
 }
-/* line 169, ../sass/partials/_my-work.scss */
+/* line 180, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--elevate a.see-more {
   background-color: #00aeef;
 }
-/* line 174, ../sass/partials/_my-work.scss */
+/* line 185, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--mantis {
   background: #e44d52;
 }
-/* line 178, ../sass/partials/_my-work.scss */
+/* line 189, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--skinny {
   background: #3ea430;
 }
-/* line 181, ../sass/partials/_my-work.scss */
+/* line 192, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--skinny a.see-more {
   background-color: #55565a;
 }
-/* line 186, ../sass/partials/_my-work.scss */
+/* line 197, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--concept-art {
   background: #e44d52;
 }
-/* line 190, ../sass/partials/_my-work.scss */
+/* line 201, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--homestead {
   background: #669999;
 }
-/* line 193, ../sass/partials/_my-work.scss */
+/* line 204, ../sass/partials/_my-work.scss */
 body.my-work section.my-work__section--homestead a.see-more {
   background-color: #ca8200;
 }

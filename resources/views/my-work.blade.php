@@ -4,7 +4,7 @@
 @section('content')
 
 <section class="my-work__section my-work__section--hero">
-
+<h1>Work</h1>
 </section>
 <section class="my-work__section my-work__section--1 my-work__section--edwrks">
     <div class="clear-fix">
