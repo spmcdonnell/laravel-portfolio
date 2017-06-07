@@ -37,7 +37,7 @@
         <h2>What I can do.</h2>
         <div class="row tight">
             <div class="col-sm-4 col-sm-offset-1">
-                <p><img src="/images/black-square.png" width="300" height="300"></p>
+                <p style="text-align: center"><img src="/images/problem-solving.png" width="450" height="450"></p>
             </div>
             <div class="col-sm-6">
                 <h3>Understand your needs.</h3>
@@ -49,7 +49,7 @@
         </div>
         <div class="row tight">
             <div class="col-sm-4 col-sm-push-7">
-                <p><img src="/images/black-square.png" width="300" height="300"></p>
+                <p style="text-align: center"><img src="/images/tool-for-job.png" width="450" height="450"></p>
             </div>
             <div class="col-sm-6 col-sm-pull-3">
                 <h3>Use the right tool for the job.</h3>
