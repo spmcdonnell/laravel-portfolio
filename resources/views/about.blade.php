@@ -37,7 +37,7 @@
         <h2>What I can do.</h2>
         <div class="row tight">
             <div class="col-sm-4 col-sm-offset-1">
-                <p style="text-align: center"><img src="/images/problem-solving.png" width="450" height="450"></p>
+                <p style="text-align: center"><img src="/images/problem-solving.png" width="450" height="411" style="max-width: 270px; margin-top: 26px;"></p>
             </div>
             <div class="col-sm-6">
                 <h3>Understand your needs.</h3>
@@ -48,8 +48,8 @@
             </div>
         </div>
         <div class="row tight">
-            <div class="col-sm-4 col-sm-push-7">
-                <p style="text-align: center"><img src="/images/tool-for-job.png" width="450" height="450"></p>
+            <div class="col-sm-4 col-sm-push-7" style="padding: 0;">
+                <p style="text-align: center"><img src="/images/tool-for-job.png" width="450" height="386"></p>
             </div>
             <div class="col-sm-6 col-sm-pull-3">
                 <h3>Use the right tool for the job.</h3>
