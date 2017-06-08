@@ -1,6 +1,6 @@
 @extends('layout')
 @section('pageClass', 'home')
-@section('tabTitle', 'About')
+@section('tabTitle', 'Sean McDonnell - About')
 @section('content')
 
 <section class="home__section home__section--cityscape">
