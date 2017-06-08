@@ -8,7 +8,7 @@
      <title>@yield('tabTitle')</title>
 
      <!-- Fonts -->
-     <link rel='shortcut icon' href="//www.redditstatic.com/favicon.ico" type="image/x-icon" />
+     <link rel='shortcut icon' href="/images/favicon.ico" type="image/x-icon" />
      <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
      <link href="/stylesheets/custom.css" rel="stylesheet" type="text/css">
