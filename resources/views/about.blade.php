@@ -74,5 +74,5 @@
 </section>
 
 {{--<div class="white-ridges-down"></div>--}}
-<script type="text/javascript" src="/js/parallax-background.js"></script>
+<script type="text/javascript" src="/js/parallax-background.min.js"></script>
  @stop
