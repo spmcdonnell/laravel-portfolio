@@ -16,14 +16,4 @@ Route::post('/', 'PagesController@postAbout');
 
 Route::get('my-work', 'PagesController@my_work');
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
 
-//Route::get('about', 'PagesController@about');
-
-//Route::get('fuck', function () {
-//    return 'fuck you';
-//});
-
-//Route::get('test-page', 'PagesController@test');
