@@ -58,4 +58,9 @@ class PagesController extends Controller
     {
         return view('my-work');
     }
+
+    public function testing()
+    {
+        return view('testing');
+    }
 }
