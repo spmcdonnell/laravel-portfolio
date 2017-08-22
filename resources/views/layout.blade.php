@@ -77,5 +77,6 @@
         </div>
      </footer>
      <script type="text/javascript" src="/js/custom.min.js"></script>
+     <script type="text/javascript" src="/js/nicescroll/jquery.nicescroll.min.js"></script>
  </body>
 </html>
