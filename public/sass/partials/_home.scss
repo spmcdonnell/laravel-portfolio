@@ -54,7 +54,8 @@ section.home__section:nth-of-type(2) {
 
 section.home__section--cityscape {
   background: linear-gradient(#61adf5, #f6fbff);
-  min-height: 1100px;
+//  min-height: 1100px;
+  min-height: 895px;
   color: #fff;
 
   h1, h2 {
@@ -97,23 +98,35 @@ section.home__section--cityscape {
 
   div.skyline.skyline--prlx-1 {
     background: url(/images/buildings-1-newshadow.png) 50% 0 no-repeat;
+//    min-height: 598px;
+//    position: fixed;
+//    top: 340px;
     min-height: 598px;
     position: fixed;
-    top: 340px;
+    top: 32%;
+    max-width: 1200px;
   }
 
   div.skyline.skyline--prlx-2 {
     background: url(/images/buildings-2-newshadow.png) 50% 0 no-repeat;
-    min-height: 600px;
+//    min-height: 600px;
+//    position: fixed;
+//    top: 245px;
+    min-height: 740px;
     position: fixed;
-    top: 245px;
+    top: 20%;
+    max-width: 1200px;
   }
 
   div.skyline.skyline--prlx-3 {
     background: url(/images/buildings-3-newshadow-1.png) 50% 0 no-repeat;
-    min-height: 765px;
+//    min-height: 765px;
+//    position: fixed;
+//    top: 130px;
+    min-height: 671px;
     position: fixed;
-    top: 130px;
+    top: 12%;
+    max-width: 1200px;
   }
 
   div.skyline.skyline--cloud-1 {
@@ -230,7 +243,7 @@ div.circle {
 
 .tight,
 .tighter {
-  margin: 0 auto;
+  margin: 0 auto 0;
 }
 
 .tight {

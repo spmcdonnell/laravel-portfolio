@@ -647,10 +647,10 @@ section.home__section:nth-of-type(2) {
 /* line 55, ../sass/partials/_home.scss */
 section.home__section--cityscape {
   background: linear-gradient(#61adf5, #f6fbff);
-  min-height: 1100px;
+  min-height: 895px;
   color: #fff;
 }
-/* line 60, ../sass/partials/_home.scss */
+/* line 61, ../sass/partials/_home.scss */
 section.home__section--cityscape h1, section.home__section--cityscape h2 {
   position: fixed;
   left: 0;
@@ -660,19 +660,19 @@ section.home__section--cityscape h1, section.home__section--cityscape h2 {
   text-shadow: -1px 1px 1px #000;
   font-family: 'Populaire';
 }
-/* line 70, ../sass/partials/_home.scss */
+/* line 71, ../sass/partials/_home.scss */
 section.home__section--cityscape h1 {
   margin-top: 190px;
   margin-bottom: 0;
   font-size: 5em;
 }
-/* line 76, ../sass/partials/_home.scss */
+/* line 77, ../sass/partials/_home.scss */
 section.home__section--cityscape h2 {
   top: 286px;
   font-size: 2em;
   margin-top: 0;
 }
-/* line 82, ../sass/partials/_home.scss */
+/* line 83, ../sass/partials/_home.scss */
 section.home__section--cityscape div.skyline {
   left: 0;
   right: 0;
@@ -681,35 +681,38 @@ section.home__section--cityscape div.skyline {
   width: 100%;
   min-height: 1000px;
 }
-/* line 91, ../sass/partials/_home.scss */
+/* line 92, ../sass/partials/_home.scss */
 section.home__section--cityscape div.skyline.skyline--first {
   background: url(/images/ground-newshadow-1.png) repeat-x;
   background-position: 50% 100%;
   min-height: 430px;
   bottom: 0;
 }
-/* line 98, ../sass/partials/_home.scss */
+/* line 99, ../sass/partials/_home.scss */
 section.home__section--cityscape div.skyline.skyline--prlx-1 {
   background: url(/images/buildings-1-newshadow.png) 50% 0 no-repeat;
   min-height: 598px;
   position: fixed;
-  top: 340px;
+  top: 32%;
+  max-width: 1200px;
 }
-/* line 105, ../sass/partials/_home.scss */
+/* line 110, ../sass/partials/_home.scss */
 section.home__section--cityscape div.skyline.skyline--prlx-2 {
   background: url(/images/buildings-2-newshadow.png) 50% 0 no-repeat;
-  min-height: 600px;
+  min-height: 740px;
   position: fixed;
-  top: 245px;
+  top: 20%;
+  max-width: 1200px;
 }
-/* line 112, ../sass/partials/_home.scss */
+/* line 121, ../sass/partials/_home.scss */
 section.home__section--cityscape div.skyline.skyline--prlx-3 {
   background: url(/images/buildings-3-newshadow-1.png) 50% 0 no-repeat;
-  min-height: 765px;
+  min-height: 671px;
   position: fixed;
-  top: 130px;
+  top: 12%;
+  max-width: 1200px;
 }
-/* line 119, ../sass/partials/_home.scss */
+/* line 132, ../sass/partials/_home.scss */
 section.home__section--cityscape div.skyline.skyline--cloud-1 {
   top: 150px;
   left: 0px;
@@ -721,7 +724,7 @@ section.home__section--cityscape div.skyline.skyline--cloud-1 {
   max-width: 275px;
   animation: clouds-1 50s linear infinite, fade-in 4s linear;
 }
-/* line 131, ../sass/partials/_home.scss */
+/* line 144, ../sass/partials/_home.scss */
 section.home__section--cityscape div.skyline.skyline--cloud-2 {
   top: 300px;
   right: -495px;
@@ -734,7 +737,7 @@ section.home__section--cityscape div.skyline.skyline--cloud-2 {
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
 }
-/* line 144, ../sass/partials/_home.scss */
+/* line 157, ../sass/partials/_home.scss */
 section.home__section--cityscape div.skyline.skyline--balloons {
   top: 12%;
   left: -10%;
@@ -747,7 +750,7 @@ section.home__section--cityscape div.skyline.skyline--balloons {
   max-width: 650px;
   animation-direction: alternate;
 }
-/* line 158, ../sass/partials/_home.scss */
+/* line 171, ../sass/partials/_home.scss */
 section.home__section--cityscape div.skyline.skyline--sunbox {
   top: 0;
   left: 0;
@@ -756,7 +759,7 @@ section.home__section--cityscape div.skyline.skyline--sunbox {
   min-height: 100px;
   position: fixed;
 }
-/* line 166, ../sass/partials/_home.scss */
+/* line 179, ../sass/partials/_home.scss */
 section.home__section--cityscape div.skyline.skyline--sunbox div.sun-rays {
   position: absolute;
   top: 120px;
@@ -767,7 +770,7 @@ section.home__section--cityscape div.skyline.skyline--sunbox div.sun-rays {
   background-size: cover;
   animation: sunrays 30s linear infinite;
 }
-/* line 177, ../sass/partials/_home.scss */
+/* line 190, ../sass/partials/_home.scss */
 section.home__section--cityscape div.skyline.skyline--sunbox div.the-sun {
   position: absolute;
   top: 50%;
@@ -789,26 +792,26 @@ section.home__section--cityscape div.skyline.skyline--sunbox div.the-sun {
   perspective: 1000;
 }
 
-/* line 202, ../sass/partials/_home.scss */
+/* line 215, ../sass/partials/_home.scss */
 main.content section.home__section--about h2 {
   font-size: 3em;
   color: #4a6860;
   text-align: center;
   margin-top: 0;
 }
-/* line 209, ../sass/partials/_home.scss */
+/* line 222, ../sass/partials/_home.scss */
 main.content section.home__section--about h3 {
   font-size: 1.8em;
   color: #6f9c92;
   margin: 10px 0;
 }
-/* line 215, ../sass/partials/_home.scss */
+/* line 228, ../sass/partials/_home.scss */
 main.content section.home__section--about img {
   width: 100%;
   height: auto;
 }
 
-/* line 221, ../sass/partials/_home.scss */
+/* line 234, ../sass/partials/_home.scss */
 div.circle {
   width: 140px;
   height: 140px;
@@ -819,23 +822,23 @@ div.circle {
   overflow: hidden;
 }
 
-/* line 232, ../sass/partials/_home.scss */
+/* line 245, ../sass/partials/_home.scss */
 .tight,
 .tighter {
-  margin: 0 auto;
+  margin: 0 auto 0;
 }
 
-/* line 236, ../sass/partials/_home.scss */
+/* line 249, ../sass/partials/_home.scss */
 .tight {
   max-width: 960px;
 }
 
-/* line 240, ../sass/partials/_home.scss */
+/* line 253, ../sass/partials/_home.scss */
 .tighter {
   max-width: 455px;
 }
 
-/* line 244, ../sass/partials/_home.scss */
+/* line 257, ../sass/partials/_home.scss */
 .vertical-center {
   position: absolute;
   top: 50%;
@@ -847,7 +850,7 @@ div.circle {
   transform: translate(-50%, -50%);
 }
 
-/* line 255, ../sass/partials/_home.scss */
+/* line 268, ../sass/partials/_home.scss */
 section.home__section--contact {
   color: #545454;
 }
