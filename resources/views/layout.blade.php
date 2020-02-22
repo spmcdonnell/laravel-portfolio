@@ -50,11 +50,13 @@
                         and hope to add a blog in the near future.</p>
                     </div>
                     <div class="col-sm-4" style="text-align: center; position: initial;">
-                        <div class="circle" style="margin: 25px auto 55px;"><img src="/images/sean-avatar.png" style="width: 90px; margin-top: 2px;"></div>
+                        <div class="circle" style="margin: 25px auto 57px;"><img src="/images/sean-avatar.png" style="width: 90px; margin-top: 2px;"></div>
                         <div class="vertical">
                             <a href="tel:2677724490"><img style="display: inline; margin: 0 10px -7px;" src="/images/phone-icon.png" width="19" height="25"></a><a href="tel:2677724490">267-772-4490</a>
-                            <div style="height: 25px;"></div>
+                            <div style="height: 10px;"></div>
                             <a href="mailto:mcdsean@gmail.com"><img style="display: inline; margin: 0 10px -4px;" src="/images/email-icon.png" width="30" height="20"></a><a href="mailto:mcdsean@gmail.com">mcdsean@gmail.com</a>
+                            <div style="height: 10px;"></div>
+                            <a href="https://github.com/spmcdonnell"><img style="display: inline; margin: 0 10px -10px;" src="/images/github-icon.png" width="30" height="30"></a><a href="https://github.com/spmcdonnell">spmcdonnell</a>
                         </div>
                     </div>
                     <div class="col-sm-4">
