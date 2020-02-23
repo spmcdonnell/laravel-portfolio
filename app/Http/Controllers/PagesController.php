@@ -47,7 +47,7 @@ class PagesController extends Controller
 
         Mail::send('emails.contact', $data, function($emailHeader) use ($data){
             $emailHeader->from($data['bodyEmail']);
-            $emailHeader->to('sean.mcdonnell@temple.edu');
+            $emailHeader->to('tua57246@temple.edu');
             $emailHeader->subject('New Portfolio Contact');
         });
 
