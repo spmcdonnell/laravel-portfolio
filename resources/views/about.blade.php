@@ -49,7 +49,7 @@
         </div>
         <div class="row tight">
             <div class="col-sm-4 col-sm-push-7" style="padding: 0;">
-                <p style="text-align: center"><img src="/images/tool-for-job.png" width="450" height="386" style="width: 350px;"></p>
+                <p style="text-align: center"><img src="/images/tool-for-job-js.png" width="450" height="386" style="width: 350px;"></p>
             </div>
             <div class="col-sm-6 col-sm-pull-3">
                 <h3>Use the right tool for the job.</h3>
