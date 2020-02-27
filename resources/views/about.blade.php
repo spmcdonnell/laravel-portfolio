@@ -40,11 +40,11 @@
                 <p style="text-align: center"><img src="/images/problem-solving.png" width="450" height="411" style="max-width: 270px; margin-top: 26px;"></p>
             </div>
             <div class="col-sm-6">
-                <h3>Understand your needs.</h3>
+                <h3>Adapt to meet your needs.</h3>
                 <p>I have experience working on solo projects from conception to deployment as well as part of a team of
                 talented developers and designers. I keep apprised of the latest trends and understand
                 the importance of good design in shaping user browsing habits. When not hunkered over my computer, I also enjoy
-                working with clients to help them fully utilize their site's capabilities.</p>
+                working with clients to help them realize their vision.</p>
             </div>
         </div>
         <div class="row tight">
@@ -53,11 +53,7 @@
             </div>
             <div class="col-sm-6 col-sm-pull-3">
                 <h3>Use the right tool for the job.</h3>
-                <p>I use HTML, CSS (SASS), plain JS, and jQuery on the front end, and PHP (including Laravel) and MySQL
-                for the back. Tools like GitHub, Bootstrap, and Gulp help keep me efficient.
-                I work with popular CMS and e-commerce platforms like Magento and Drupal, and have
-                extensive WordPress experience. On the design side I'm joined at the hip with Adobe Photoshop, but also
-                use Illustrator and InDesign.</p>
+                <p>With strong fundamentals in HTML, CSS, and JS, I also love working within the JS ecosystem through Node and React. I have experience with SQL databases and PHP, and have done extensive custom work with popular CMS platforms like Magento and WordPress. Tools like webpack help keep me efficient. On the design side I'm joined at the hip with Adobe Photoshop and Illustrator.</p>
             </div>
         </div>
         <hr>
@@ -73,6 +69,5 @@
     </div>
 </section>
 
-{{--<div class="white-ridges-down"></div>--}}
 <script type="text/javascript" src="/js/parallax-background.min.js"></script>
  @stop
