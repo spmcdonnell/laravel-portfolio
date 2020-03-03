@@ -30,9 +30,32 @@
         </div>
     </div>
 </section>
-<section class="my-work__section my-work__section--2 my-work__section--elevate">
+<section class="my-work__section my-work__section--2 my-work__section--edwrks">
     <div class="clear-fix">
         <div class="static static2">
+            <div class="desc">
+                <h2>PowerCorps</h2>
+                <h3>Web Dev / UI</h3>
+                 <p>I worked on the site redesign of Philadelphia based non-profit EducationWorks.
+                 The primary goals were to creative an attractive, modern, mobile-friendly design, and
+                 reduce the number of pages through a tabbed content interface.</p>
+                 <a class="see-more" href="http://educationworks.org" target="_blank">Take a Look</a>
+            </div>
+        </div>
+        <div class="scroll-content">
+            <div>
+                <div style="position: relative; display: inline-block">
+                    <img src="/images/powercorpsphl-homepage.jpg">
+                    <img class="mobile" width="150" src="/images/powercorps-phone.png">
+                </div>
+            </div>
+            <img style="margin-top: 40px;" src="/images/powercorps-model-page.jpg">
+        </div>
+    </div>
+</section>
+<section class="my-work__section my-work__section--3 my-work__section--elevate">
+    <div class="clear-fix">
+        <div class="static static3">
             <div class="desc">
                 <h2>Elevate CBD</h2>
                 <h3>Web Dev / UI</h3>
@@ -47,9 +70,9 @@
         </div>
     </div>
 </section>
-<section class="my-work__section my-work__section--3 my-work__section--homestead">
+<section class="my-work__section my-work__section--4 my-work__section--homestead">
     <div class="clear-fix">
-        <div class="static static3">
+        <div class="static static4">
             <div class="desc">
                 <h2>The Homestead Box</h2>
                 <h3>Web Dev / UI</h3>
@@ -64,9 +87,9 @@
         </div>
     </div>
 </section>
-<section class="my-work__section my-work__section--4 my-work__section--skinny">
+<section class="my-work__section my-work__section--5 my-work__section--skinny">
     <div class="clear-fix">
-        <div class="static static4">
+        <div class="static static5">
             <div class="desc">
                 <h2>Skinny Nutritional</h2>
                 <h3>Web Dev / UI</h3>
@@ -82,9 +105,9 @@
         </div>
     </div>
 </section>
-<section class="my-work__section my-work__section--5 my-work__section--concept-art">
+<section class="my-work__section my-work__section--6 my-work__section--concept-art">
     <div class="clear-fix">
-        <div class="static static5">
+        <div class="static static6">
             <div class="desc">
                 <h2>Concept Art</h2>
                 <h3>Product Development / Design</h3>
