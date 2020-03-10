@@ -30,7 +30,7 @@
         </div>
     </div>
 </section>
-<section class="my-work__section my-work__section--2 my-work__section--edwrks">
+<section class="my-work__section my-work__section--2 my-work__section--powercorps">
     <div class="clear-fix">
         <div class="static static2">
             <div class="desc">

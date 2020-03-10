@@ -33,24 +33,29 @@ body.my-work {
     }
 
     .static2,
-    .static4 {
+    .static4,
+    .static6 {
       float: right;
       right: 0;
     }
 
     .static2 {
-      background: $elevate-green;
+      background: $powercorps-blue;
     }
 
     .static3 {
-      background: $homestead-green;
+      background: $elevate-green;
     }
 
     .static4 {
-      background: $skinny-green;
+      background: $homestead-green;
     }
 
     .static5 {
+      background: $skinny-green;
+    }
+
+    .static6 {
       background: #e44d52;
     }
 
@@ -91,7 +96,8 @@ body.my-work {
     }
 
     .static2 + .scroll-content,
-    .static4 + .scroll-content {
+    .static4 + .scroll-content,
+    .static6 + .scroll-content {
       float: left;
     }
 
@@ -147,7 +153,7 @@ body.my-work {
       height: 400px;
       background: #fff;
       margin: 0 auto 30px;
-      @include box-shadow(0px 4px 17px 5px rgba(0,0,0,0.3));
+      box-shadow: 0px 4px 17px 5px rgba(0,0,0,0.3);
     }
 
     .fixed {
