@@ -30,46 +30,6 @@
         </div>
     </div>
 </section>
-<section class="my-work__section my-work__section--2 my-work__section--powercorps">
-    <div class="clear-fix">
-        <div class="static static2">
-            <div class="desc">
-                <h2>PowerCorps</h2>
-                <h3>Web Dev / UI</h3>
-                 <p>I worked on the site redesign of Philadelphia based non-profit EducationWorks.
-                 The primary goals were to creative an attractive, modern, mobile-friendly design, and
-                 reduce the number of pages through a tabbed content interface.</p>
-                 <a class="see-more" href="http://educationworks.org" target="_blank">Take a Look</a>
-            </div>
-        </div>
-        <div class="scroll-content">
-            <div>
-                <div style="position: relative; display: inline-block">
-                    <img src="/images/powercorpsphl-homepage.jpg">
-                    <img class="mobile" width="150" src="/images/powercorps-phone.png">
-                </div>
-            </div>
-            <img style="margin-top: 40px;" src="/images/powercorps-model-page.jpg">
-        </div>
-    </div>
-</section>
-<section class="my-work__section my-work__section--3 my-work__section--elevate">
-    <div class="clear-fix">
-        <div class="static static3">
-            <div class="desc">
-                <h2>Elevate CBD</h2>
-                <h3>Web Dev / UI</h3>
-                 <p>This website marked the successful entry of Elevate into the fast growing vape market
-                  and is complimented by their heavy social media presence and wholesale outreach program.</p>
-                </p>
-                <a class="see-more" href="http://elevatecbd.com" target="_blank">Take a Look</a>
-            </div>
-        </div>
-        <div class="scroll-content">
-            <img src="/images/elevatecbd-homepage.jpg">
-        </div>
-    </div>
-</section>
 <section class="my-work__section my-work__section--4 my-work__section--homestead">
     <div class="clear-fix">
         <div class="static static4">
