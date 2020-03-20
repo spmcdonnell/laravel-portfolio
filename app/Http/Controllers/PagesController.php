@@ -12,22 +12,6 @@ use Illuminate\Support\Facades\URL;
 
 class PagesController extends Controller
 {
-    public function test()
-    {
-      $names = [
-        'Jim',
-        'John',
-        'Jake'
-      ];
-
-      $people = [
-        'name' => 'Sean McDonnell',
-        'age' => 29,
-        'height' => '5'
-      ];
-      return view('test', compact('names', 'people'));
-    }
-
     public function about()
     {
         return view('about');
