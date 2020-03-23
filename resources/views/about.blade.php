@@ -22,7 +22,7 @@
      <div class="inside-container">
      </div>
 </section>
-<section class="home__section home__section--about">
+<section id="home__section--about" class="home__section home__section--about">
     <div class="inside-container">
         <div class="row">
             <div class="col-sm-12">

@@ -22,7 +22,7 @@
             </div>
             <div class="primary-nav">
                 <ul>
-                    <li><a href="/">About</a></li>
+                    <li><a href="/#home__section--about">About</a></li>
                     <li><a href="/my-work">Work</a></li>
                 </ul>
             </div>
