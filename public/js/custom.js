@@ -50,8 +50,3 @@ function hasScrolled() {
 
     lastScrollTop = st;
 }
-
-
-
-
-
