@@ -22,7 +22,7 @@
             </div>
             <div class="primary-nav">
                 <ul>
-                    <li><a href="/#home__section--about">About</a></li>
+                    <li><a class="start-button" href="/#home__section--about">About</a></li>
                     <li><a href="/my-work">Work</a></li>
                 </ul>
             </div>
@@ -78,7 +78,7 @@
              </div>
         </div>
      </footer>
-     <script type="text/javascript" src="/js/custom.min.js"></script>
+     <script type="text/javascript" src="/js/custom.js"></script>
      {{--<script type="text/javascript" src="/js/nicescroll/jquery.nicescroll.min.js"></script>--}}
  </body>
 </html>
