@@ -1,4 +1,4 @@
-<h2>New contact from homepage contact form:</h2>
+<h2>New contact from footer contact form:</h2>
 
 <p>From: {{ $bodyEmail }}</p>
-<p>They said: {{ $bodyMessage }}</p>
+<p>Their message: {{ $bodyMessage }}</p>
