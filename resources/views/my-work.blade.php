@@ -68,6 +68,41 @@
         </div>
     </div>
 </section>
+<section class="my-work__section my-work__section--4 my-work__section--homestead">
+    <div class="clear-fix">
+        <div class="static static4">
+            <div class="desc">
+                <h2>The Homestead Box</h2>
+                <h3>Web Dev / UI</h3>
+                 <p>The Homesteadbox offers a subscription service dedicated to self sufficiency
+                 in addition to regular newsletter and video based tutorials. Care was taken to keep
+                 the messaging simple and provide ample opportunities to sign up.</p>
+                <a class="see-more" href="http://thehomesteadbox.com" target="_blank">Take a Look</a>
+            </div>
+        </div>
+        <div class="scroll-content">
+            <img src="/images/thehomesteadbox-homepage.jpg">
+        </div>
+    </div>
+</section>
+<section class="my-work__section my-work__section--5 my-work__section--skinny">
+    <div class="clear-fix">
+        <div class="static static5">
+            <div class="desc">
+                <h2>Skinny Nutritional</h2>
+                <h3>Web Dev / UI</h3>
+                 <p>A Magento based e-commerce site for a startup brand, this project has a community focus
+                 through blog posts and customer interaction with coaches and trainers. </p>
+                <a class="see-more" href="http://skinnyco.com" target="_blank">Take a Look</a>
+            </div>
+        </div>
+        <div class="scroll-content">
+            <div class="height-fix">
+                <img src="/images/skinny-homepage.jpg">
+            </div>
+        </div>
+    </div>
+</section>
 <section class="my-work__section my-work__section--6 my-work__section--concept-art">
     <div class="clear-fix">
         <div class="static static6">
