@@ -42,4 +42,9 @@ class PagesController extends Controller
     {
         return view('my-work');
     }
+
+    public function welcome()
+    {
+        return view('welcome');
+    }
 }
