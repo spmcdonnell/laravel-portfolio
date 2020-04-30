@@ -13,10 +13,10 @@
             <div class="desc">
                 <h2>EducationWorks</h2>
                 <h3>Web Dev / UI</h3>
-                 <p>I worked on the site redesign of Philadelphia based non-profit EducationWorks.
-                 The primary goals were to creative an attractive, modern, mobile-friendly design, and
-                 reduce the number of pages through a tabbed content interface.</p>
-                 <a class="see-more" href="http://educationworks.org" target="_blank">Take a Look</a>
+                <p>I worked on the site redesign of Philadelphia based non-profit EducationWorks.
+                The primary goals were to creative an attractive, modern, mobile-friendly design, and
+                reduce the number of pages through a tabbed content interface.</p>
+                <a class="see-more" href="http://educationworks.org" target="_blank">Take a Look</a>
             </div>
         </div>
         <div class="scroll-content">
