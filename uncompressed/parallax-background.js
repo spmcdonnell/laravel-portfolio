@@ -7,6 +7,7 @@
 var $prlx1 = $(".skyline.skyline--prlx-1"),
     $prlx2 = $(".skyline.skyline--prlx-2"),
     $prlx3 = $(".skyline.skyline--prlx-3");
+
 $(window).on('load resize', function () {
     $(window).on("scroll", function () {
         if ($(window).width() > 768) {
