@@ -7,9 +7,9 @@
 var didScroll,
     lastScrollTop = 0,
     delta = 5,
-    $siteHeader = $('.site-header');
+    $siteHeader = jQuery('.site-header');
 
-$(window).scroll(function (event) {
+jQuery(window).scroll(function (event) {
     didScroll = true;
 });
 
@@ -21,15 +21,15 @@ setInterval(function () {
 }, 1);
 
 function hasScrolled() {
-    var st = $(this).scrollTop(),
-        navBarHeight = $siteHeader.outerHeight();
+    var st = jQuery(this).scrollTop(),
+        navBarHeight = jQuerysiteHeader.outerHeight();
 
     //Add class to header when scrolled to very top of page
-    if ($siteHeader.offset().top < 10) {
-        $siteHeader.addClass('top-of-page');
+    if (jQuerysiteHeader.offset().top < 10) {
+        jQuerysiteHeader.addClass('top-of-page');
     } else {
         // Remove class when scrolled anywhere other than top of page
-        $siteHeader.removeClass('top-of-page');
+        jQuerysiteHeader.removeClass('top-of-page');
     }
 
     // Make sure they scroll more than delta
@@ -40,11 +40,11 @@ function hasScrolled() {
     // This is necessary so you never see what is "behind" the navbar.
     if (st > lastScrollTop && st > navBarHeight) {
         // Scroll Down
-        $siteHeader.removeClass('nav-down').addClass('nav-up');
+        jQuerysiteHeader.removeClass('nav-down').addClass('nav-up');
     } else {
         // Scroll Up
-        if (st + $(window).height() < $(document).height()) {
-            $siteHeader.removeClass('nav-up').addClass('nav-down');
+        if (st + jQuery(window).height() < jQuery(document).height()) {
+            jQuerysiteHeader.removeClass('nav-up').addClass('nav-down');
         }
     }
 
@@ -52,9 +52,9 @@ function hasScrolled() {
 }
 
 
-$(document).ready(function () {
+jQuery(document).ready(function () {
     // Add smooth scrolling to all links
-    $("a.start-button, a.back-to-top").on('click', function (event) {
+    jQuery("a.start-button, a.back-to-top").on('click', function (event) {
 
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
@@ -66,8 +66,8 @@ $(document).ready(function () {
 
             // Using jQuery's animate() method to add smooth page scroll
             // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
+            jQuery('html, body').animate({
+                scrollTop: jQuery(hash).offset().top
             }, 700, function () {
 
                 // Add hash (#) to URL when done scrolling (default click behavior)
