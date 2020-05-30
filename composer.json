@@ -10,7 +10,8 @@
     "require": {
         "php": ">=5.6.4",
         "laravel/framework": "5.3.*",
-        "intervention/image": "^2.5"
+        "intervention/image": "^2.5",
+        "monolog/monolog": "^1.25"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
