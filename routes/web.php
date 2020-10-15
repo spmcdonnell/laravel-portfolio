@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('my-work', 'PagesController@about');
+Route::get('/', 'PagesController@about');
 Route::post('/', 'PagesController@postAbout');
-Route::get('/', 'PagesController@my_work');
+Route::get('my-work', 'PagesController@my_work');
 
