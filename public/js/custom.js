@@ -22,14 +22,14 @@ setInterval(function () {
 
 function hasScrolled() {
     var st = jQuery(this).scrollTop(),
-        navBarHeight = jQuerysiteHeader.outerHeight();
+        navBarHeight = $siteHeader.outerHeight();
 
     //Add class to header when scrolled to very top of page
-    if (jQuerysiteHeader.offset().top < 10) {
-        jQuerysiteHeader.addClass('top-of-page');
+    if ($siteHeader.offset().top < 10) {
+        $siteHeader.addClass('top-of-page');
     } else {
         // Remove class when scrolled anywhere other than top of page
-        jQuerysiteHeader.removeClass('top-of-page');
+        $siteHeader.removeClass('top-of-page');
     }
 
     // Make sure they scroll more than delta
@@ -40,11 +40,11 @@ function hasScrolled() {
     // This is necessary so you never see what is "behind" the navbar.
     if (st > lastScrollTop && st > navBarHeight) {
         // Scroll Down
-        jQuerysiteHeader.removeClass('nav-down').addClass('nav-up');
+        $siteHeader.removeClass('nav-down').addClass('nav-up');
     } else {
         // Scroll Up
         if (st + jQuery(window).height() < jQuery(document).height()) {
-            jQuerysiteHeader.removeClass('nav-up').addClass('nav-down');
+            $siteHeader.removeClass('nav-up').addClass('nav-down');
         }
     }
 
