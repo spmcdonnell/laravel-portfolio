@@ -30,9 +30,11 @@ class PagesController extends Controller
         );
 
         Mail::send('emails.contact', $data, function($emailHeader) use ($data){
-            $emailHeader->from($data['bodyEmail']);
+            $emailHeader->from('sean@sean-mcdonnell.com');
+            $emailHeader->replyTo($data['bodyEmail']);
+            $emailHeader->sender($data['bodyEmail']);
             $emailHeader->to('sean@sean-mcdonnell.com');
-            $emailHeader->subject('New Portfolio Contact');
+            $emailHeader->subject('Sean McDonnell Contact Form Submission');
         });
 
         return Redirect::to(URL::previous() . "#contact")->with('success', 'Your message has been received — I usually respond within 24 hours!');
