@@ -33,7 +33,7 @@
         </div>
     </header>
     <div class="site-inner">
-        <main class="content">
+        <main class="content" id="fullpage">
             @yield('content')
         </main>
     </div>
