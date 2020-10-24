@@ -68,9 +68,9 @@ jQuery(document).ready(function () {
             // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
             jQuery('html, body').animate({
                 scrollTop: jQuery(hash).offset().top
-            }, 700, function () {
+            }, 3600, function () {
 
-                // Add hash (#) to URL when done scrolling (default click behavior)
+                // Keep hash out of the URL
                 window.location.hash = '';
             });
         } // End if

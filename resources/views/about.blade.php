@@ -3,8 +3,6 @@
 @section('tabTitle', 'Sean McDonnell - About')
 @section('content')
 
-<link href="/css/fullpage.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="/js/fullpage.js"></script>
 <section class="home__section home__section--cityscape section">
     <h1>Hi, I'm Sean.</h1>
     <h2>a web developer</h2>
@@ -79,12 +77,5 @@
         <h2></h2>
     </div>
 </section>
-<script>
-new fullpage('#fullpage', {
-    //options here
-    autoScrolling: true,
-    scrollHorizontally: true
-});
-</script>
 <script type="text/javascript" src="/js/parallax-background.min.js"></script>
 @stop
