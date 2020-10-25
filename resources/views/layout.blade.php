@@ -11,7 +11,7 @@
     <!-- Fonts -->
     <link rel='shortcut icon' href="/images/favicon.ico" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link href="/stylesheets/custom.css" rel="stylesheet" type="text/css">
     <link href="/stylesheets/grid12.min.css" rel="stylesheet" type="text/css">
 </head>
@@ -37,7 +37,7 @@
             @yield('content')
         </main>
     </div>
-    <footer>
+    <footer class="site-footer">
         <div class="wrap" id="contact">
             <div class="inside-container">
                 <div class="row">

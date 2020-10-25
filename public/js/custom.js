@@ -52,27 +52,22 @@ function hasScrolled() {
 }
 
 
-jQuery(document).ready(function () {
-    // Add smooth scrolling to all links
-    jQuery("a.start-button, a.back-to-top").on('click', function (event) {
+// document.addEventListener('DOMContentLoaded', () => {
+//     // Add smooth scrolling to all links
+//     window.addEventListener('scroll', function (event) {
+//         let htmlElem = document.querySelector('html');
 
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-            // Prevent default anchor click behavior
-            event.preventDefault();
+//         console.log(htmlElem.getBoundingClientRect().top);
 
-            // Store hash
-            var hash = this.hash;
+//         if (htmlElem.getBoundingClientRect().top === 0) {
+//             // Prevent default anchor click behavior
+//             event.preventDefault();
 
-            // Using jQuery's animate() method to add smooth page scroll
-            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-            jQuery('html, body').animate({
-                scrollTop: jQuery(hash).offset().top
-            }, 3600, function () {
-
-                // Keep hash out of the URL
-                window.location.hash = '';
-            });
-        } // End if
-    });
-});
+//             // Using jQuery's animate() method to add smooth page scroll
+//             // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+//             jQuery('html, body').animate({
+//                 scrollTop: jQuery('#home__section--about').offset().top
+//             }, 2400);
+//         } // End if
+//     });
+// });
