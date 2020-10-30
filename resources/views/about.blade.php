@@ -3,25 +3,6 @@
 @section('tabTitle', 'Sean McDonnell - About')
 @section('content')
 
-<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script type="text/javascript" src="/js/jquery.scrollify.js"></script>
-<script>
-$(function() {
-    console.log('Working');
-    $.scrollify({
-        section: ".blah-blah-blah",
-        scrollSpeed: 1500,
-        easing: 'easeInQuad',
-        standardScrollElements: '.site-footer, .home__section--about',
-        before: function(index, sections) {
-            if (index === 0) {
-                console.log('this is 0');
-            }
-        }
-    });
-});
-</script>
 <section class="home__section home__section--cityscape section blah-blah-blah">
     <h1>Hi, I'm Sean.</h1>
     <h2>a web developer</h2>
@@ -37,7 +18,7 @@ $(function() {
     <div class="skyline skyline--prlx-1"></div>
     <div class="skyline skyline--first"></div>
 </section>
-<section class="home__section">
+<section class="home__section home__section--grass">
     <div class="inside-container">
     </div>
 </section>
