@@ -1181,11 +1181,12 @@ XX. MEDIA QUERIES
   }
 
   /* line 137, ../sass/partials/_media-queries.scss */
-  main.content section.home__section--cityscape h1, main.content section.home__section--cityscape h2 {
+  main.content section.home__section--cityscape h1,
+  main.content section.home__section--cityscape h2 {
     position: absolute;
   }
 
-  /* line 142, ../sass/partials/_media-queries.scss */
+  /* line 143, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .scroll-content,
   body.my-work section.my-work__section .static {
     position: relative;
@@ -1193,35 +1194,35 @@ XX. MEDIA QUERIES
     height: auto;
     padding: 30px 0;
   }
-  /* line 151, ../sass/partials/_media-queries.scss */
+  /* line 152, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .scroll-content img {
     width: auto;
   }
-  /* line 155, ../sass/partials/_media-queries.scss */
+  /* line 156, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .scroll-content img.mobile {
     right: -20px;
     width: 150px;
   }
-  /* line 160, ../sass/partials/_media-queries.scss */
+  /* line 161, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .static .desc {
     position: initial;
     transform: none;
     width: 90%;
     margin: 0 auto;
   }
-  /* line 167, ../sass/partials/_media-queries.scss */
+  /* line 168, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section h2 {
     margin-top: 0;
   }
 }
 @media only screen and (max-width: 700px) {
-  /* line 174, ../sass/partials/_media-queries.scss */
+  /* line 175, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape {
     min-height: 600px;
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 180, ../sass/partials/_media-queries.scss */
+  /* line 181, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section h1 {
     -webkit-text-shadow: none;
     -moz-text-shadow: none;
@@ -1230,89 +1231,92 @@ XX. MEDIA QUERIES
     text-shadow: none;
   }
 
-  /* line 188, ../sass/partials/_media-queries.scss */
+  /* line 189, ../sass/partials/_media-queries.scss */
   header.site-header .wrap {
     max-width: 500px;
   }
 
-  /* line 192, ../sass/partials/_media-queries.scss */
+  /* line 193, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--sunbox div.the-sun {
     height: 50px;
     width: 50px;
   }
 
-  /* line 197, ../sass/partials/_media-queries.scss */
+  /* line 198, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--sunbox div.sun-rays {
     height: 60px;
     width: 60px;
   }
 
-  /* line 202, ../sass/partials/_media-queries.scss */
+  /* line 203, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape {
     font-size: 0.7em;
   }
-  /* line 205, ../sass/partials/_media-queries.scss */
-  main.content section.home__section--cityscape h1, main.content section.home__section--cityscape h2 {
+  /* line 206, ../sass/partials/_media-queries.scss */
+  main.content section.home__section--cityscape h1,
+  main.content section.home__section--cityscape h2 {
     -webkit-text-shadow: none;
     -moz-text-shadow: none;
     -ms-text-shadow: none;
     -o-text-shadow: none;
     text-shadow: none;
   }
-  /* line 213, ../sass/partials/_media-queries.scss */
+  /* line 215, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape h2 {
     top: 245px;
   }
 }
 @media only screen and (max-width: 580px) {
-  /* line 222, ../sass/partials/_media-queries.scss */
+  /* line 224, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .scroll-content img {
     width: 85%;
   }
-  /* line 226, ../sass/partials/_media-queries.scss */
+  /* line 228, ../sass/partials/_media-queries.scss */
   body.my-work section.my-work__section .scroll-content img.mobile {
-    display: none;
+    right: 15px;
+    top: 47px;
+    width: 115px;
   }
 }
 @media only screen and (max-width: 550px) {
-  /* line 234, ../sass/partials/_media-queries.scss */
+  /* line 238, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape {
     min-height: 560px;
     font-size: 0.6em;
   }
-  /* line 238, ../sass/partials/_media-queries.scss */
+  /* line 242, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape h2 {
     top: 240px;
   }
-  /* line 242, ../sass/partials/_media-queries.scss */
+  /* line 246, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--prlx-3 {
     top: 240px;
   }
-  /* line 246, ../sass/partials/_media-queries.scss */
+  /* line 250, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--prlx-2 {
     top: 275px;
   }
-  /* line 250, ../sass/partials/_media-queries.scss */
+  /* line 254, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--cloud-1 {
     min-height: 30px;
     left: -50px;
   }
-  /* line 255, ../sass/partials/_media-queries.scss */
+  /* line 259, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--cloud-2 {
     min-height: 40px;
     right: -150px;
   }
 }
 @media only screen and (max-width: 450px) {
-  /* line 263, ../sass/partials/_media-queries.scss */
+  /* line 267, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape {
     min-height: 515px;
   }
-  /* line 266, ../sass/partials/_media-queries.scss */
+  /* line 270, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--prlx-3 {
     top: 260px;
   }
-  /* line 270, ../sass/partials/_media-queries.scss */
+  /* line 274, ../sass/partials/_media-queries.scss */
   main.content section.home__section--cityscape div.skyline.skyline--prlx-2 {
     top: 290px;
   }
