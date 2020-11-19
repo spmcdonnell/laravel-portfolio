@@ -36,7 +36,7 @@
             <div class="desc">
                 <h2>PowerCorps</h2>
                 <h3>Web Dev / UI</h3>
-                 <p>A complete overhaul of the PowerCorpsPHL web presence, this site represents a a turning point in the organizations outreach efforts. </p>
+                 <p>A complete overhaul of the PowerCorpsPHL web presence, this site represents a a turning point in the organizations outreach efforts.</p>
                  <a class="see-more" href="http://powercorpsphl.org" target="_blank">Take a Look</a>
             </div>
         </div>
