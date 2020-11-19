@@ -35,7 +35,7 @@
             </div>
         </div>
         <hr>
-        <h2>What I can do.</h2>
+        <h2>What I can do</h2>
         <div class="row tight">
             <div class="col-sm-4 col-sm-offset-1">
                 <p style="text-align: center"><img src="/images/problem-solving.png" width="450" height="411"
@@ -66,7 +66,7 @@
         <hr>
         <div class="row">
             <div class="col-sm-12">
-                <h2>I can help.</h2>
+                <h2>I can help</h2>
                 <h3 style="text-align: center; margin-bottom: 30px;">I'm available for hire and freelance opportunities.
                 </h3>
                 <p class="tighter" style="text-align: center;">If you have a project in mind that you think I may be
