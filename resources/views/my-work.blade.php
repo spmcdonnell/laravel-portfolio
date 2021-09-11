@@ -16,7 +16,7 @@
                 <p>I worked on the site redesign of Philadelphia based non-profit EducationWorks.
                 The primary goals were to creative an attractive, modern, mobile-friendly design, and
                 reduce the number of pages through a tabbed content interface.</p>
-                <a class="see-more" href="http://educationworks.org" target="_blank">Take a Look</a>
+                <a class="see-more" href="#" target="_blank">Take a Look</a>
             </div>
         </div>
         <div class="scroll-content">
@@ -37,7 +37,7 @@
                 <h2>PowerCorps</h2>
                 <h3>Web Dev / UI</h3>
                  <p>A complete overhaul of the PowerCorpsPHL web presence, this site represents a a turning point in the organizations outreach efforts.</p>
-                 <a class="see-more" href="http://powercorpsphl.org" target="_blank">Take a Look</a>
+                 <a class="see-more" href="#" target="_blank">Take a Look</a>
             </div>
         </div>
         <div class="scroll-content">
@@ -60,7 +60,7 @@
                  <p>This website marked the successful entry of Elevate into the fast growing vape market
                   and is complimented by their heavy social media presence and wholesale outreach program.</p>
                 </p>
-                <a class="see-more" href="http://elevatecbd.com" target="_blank">Take a Look</a>
+                <a class="see-more" href="#" target="_blank">Take a Look</a>
             </div>
         </div>
         <div class="scroll-content">
@@ -77,7 +77,7 @@
                  <p>The Homesteadbox offers a subscription service dedicated to self sufficiency
                  in addition to regular newsletter and video based tutorials. Care was taken to keep
                  the messaging simple and provide ample opportunities to sign up.</p>
-                <a class="see-more" href="http://thehomesteadbox.com" target="_blank">Take a Look</a>
+                <a class="see-more" href="#" target="_blank">Take a Look</a>
             </div>
         </div>
         <div class="scroll-content">
@@ -93,7 +93,7 @@
                 <h3>Web Dev / UI</h3>
                  <p>A Magento based e-commerce site for a startup brand, this project has a community focus
                  through blog posts and customer interaction with coaches and trainers. </p>
-                <a class="see-more" href="http://skinnyco.com" target="_blank">Take a Look</a>
+                <a class="see-more" href="#" target="_blank">Take a Look</a>
             </div>
         </div>
         <div class="scroll-content">
