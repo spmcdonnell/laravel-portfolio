@@ -57,10 +57,9 @@
             </div>
             <div class="col-sm-6 col-sm-pull-3">
                 <h3>Use the right tool for the job.</h3>
-                <p>With strong fundamentals in HTML, CSS, and JS, I also love working within the JS ecosystem through
-                    Node and React. I have experience with SQL databases and PHP, and have done extensive custom work
-                    with popular CMS platforms like Magento and WordPress. Tools like webpack help keep me efficient. On
-                    the design side I'm joined at the hip with Adobe Photoshop and Illustrator.</p>
+                <p>With strong fundamentals in HTML, CSS, and JS, I like working within the JS ecosystem through
+                    Node and React. I have extensive experience with SQL databases and PHP in addition to Python and Django, and have coded a number of publicly available
+                    custom themes and plugins for CMS platforms like WordPress and Magento.</p>
             </div>
         </div>
         <hr>
