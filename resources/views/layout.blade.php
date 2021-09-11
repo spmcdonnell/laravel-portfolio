@@ -66,9 +66,9 @@
                                     src="/images/email-icon.png" width="30" height="20"></a><a
                                 href="mailto:sean@sean-mcdonnell.com">sean@sean-mcdonnell.com</a>
                             <div style="height: 10px;"></div>
-                            <a href="https://github.com/spmcdonnell"><img style="display: inline; margin: 0 10px -10px;"
+                            <a href="https://github.com/mcdonnellsean"><img style="display: inline; margin: 0 10px -10px;"
                                     src="/images/github-icon.png" width="30" height="30"></a><a
-                                href="https://github.com/spmcdonnell">spmcdonnell</a>
+                                href="https://github.com/mcdonnellsean">mcdsean</a>
                         </div>
                     </div>
                     <div class="col-sm-6">
