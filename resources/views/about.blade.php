@@ -67,7 +67,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <h2>I can help</h2>
-                <h3 style="text-align: center; margin-bottom: 30px;">I'm available for hire and freelance opportunities.
+                <h3 style="text-align: center; margin-bottom: 30px;">I'm freelance opportunities.
                 </h3>
                 <p class="tighter" style="text-align: center;">If you have a project in mind that you think I may be
                     able to help you with, or if you'd like
