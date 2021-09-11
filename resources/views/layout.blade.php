@@ -44,7 +44,7 @@
                     @if(Session::has('success'))
                     <div class="alert-success"> {{ Session::get('success') }} </div>
                     @endif
-                    <div class="col-sm-4">
+                    <!-- <div class="col-sm-4">
                         <h2>About this site:</h2>
                         <p>This site was created using Laravel 5 and has been my pet project
                             for a number months. When deciding to overhaul my portfolio site,
@@ -52,8 +52,8 @@
                             It's also served as an opportunity to improve my knowledge of Laravel.
                             I plan to make to regular updates and improvements,
                             and hope to add a blog in the near future.</p>
-                    </div>
-                    <div class="col-sm-4" style="text-align: center; position: initial;">
+                    </div> -->
+                    <div class="col-sm-6" style="text-align: center; position: initial;">
                         <div class="circle" style="margin: 25px auto 57px;"><img src="/images/sean-avatar.png"
                                 style="width: 90px; margin-top: 2px;"></div>
                         <div class="vertical">
@@ -71,7 +71,7 @@
                                 href="https://github.com/spmcdonnell">spmcdonnell</a>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                         <h2>Want to get in touch?</h2>
                         <form action="{{ url('/')  }}" method="POST">
                             {{ csrf_field() }}
